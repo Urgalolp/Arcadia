@@ -1,0 +1,2 @@
+The firearm’s lower rail has been outfitted with a vertical grip to increase accuracy and maneuverability. Your attack and damage rolls with the firearm have a +2 bonus. This modification costs 150000 credits.
+#weapon_modifications #lower_rail 

@@ -1,0 +1,2 @@
+The firearm’s sight has been modified to see heat. While looking down your sight, you can see in darkness as if it were dim light for 900 ft. However, you can't discern color in darkness, only shades of gray. This modification costs 150000 credits.
+#weapon_modifications #sight

@@ -1,0 +1,3 @@
+A [[Standard]] grenade. It doesn’t detonate and, instead, fills the area with tear gas, heavily obscuring it. The grenade continues releasing tear gas for 1 minute. A moderate wind disperses the tear gas sufficiently that it only lightly obscures the affected area. A strong wind disperses the tear gas altogether for as long as it remains, assuming the grenade’s duration has not ended. A creature within the tear gas must succeed a constitution saving throw, rather than a dexterity saving throw, or become poisoned. If they are out of the tear gas, they may repeat this save at the beginning of each turn, ending the condition on a success. Each grenade weighs 2.5 lbs and costs 20000 credits.
+
+#grenade #standard

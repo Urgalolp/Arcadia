@@ -1,0 +1,2 @@
+The firearm’s muzzle is outfitted with a device meant for subduing muzzle flash and allowing for more accurate target tracking. Any attack rolls with the firearm after your first on each turn have a +1 bonus. This modification costs 30000 credits.
+#weapon_modifications #muzzle 

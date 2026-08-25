@@ -1,0 +1,2 @@
+The firearm’s stock has been removed to massively increase maneuverability. The firearm’s normal and long ranges are halved, rounded down to the nearest 5ft increment, and your attack rolls with the firearm gain a +3 bonus. This modification costs 30000 credits.
+#weapon_modifications #stock

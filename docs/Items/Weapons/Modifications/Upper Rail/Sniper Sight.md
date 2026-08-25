@@ -1,0 +1,2 @@
+The firearm’s upper rail has been outfitted with a large scope. On your turn, if you haven’t moved yet, you can spend a bonus action to aim down the sights, reducing your speed to 0 and gaining the incapacitated condition until the start of your next turn. Until you move, the firearm’s normal range becomes its long range, and it has no long range. This modification costs 350000 credits.
+#weapon_modifications #upper_rail 

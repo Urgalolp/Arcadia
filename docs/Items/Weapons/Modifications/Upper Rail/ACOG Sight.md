@@ -1,0 +1,2 @@
+The firearm’s upper rail has been outfitted with a tube-like lens. If you have not moved since the end of your last turn, you may look down this sight as a bonus action, reducing your speed by ¾ (rounded down to the nearest 5ft increment) and gaining a +3 to attack rolls and a +4 to damage rolls made with this firearm. You may end this effect as a bonus action. This modification costs 150000 credits.
+#weapon_modifications #upper_rail 

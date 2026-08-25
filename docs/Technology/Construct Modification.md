@@ -1,0 +1,5 @@
+Though originally simpler in design and objective due to the restrictions one would have during their creation, constructs of technological origin, whether it is pure technology or magically-infused technology, have been improving over the years. With the advancements to their creation there came a much greater freedom for customization, often even after the construct in question has been finalized. Those known as Warforged are, of course, the poster boys and girls of this.
+
+Creatures with the "Construct" type are able to modify themselves by integrating weapons, tools, armor, and other manner of gear within their body. Doing so requires normally 1 hour of work for integration. A creature that benefits from this has a number of 'slots' for modifications equal to their constitution modifier. Constructs that are not technological in nature cannot be modified in this manner, and constructs that are technologic-adjacent have half as many 'slots' for modification.
+
+#technology 

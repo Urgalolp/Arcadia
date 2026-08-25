@@ -1,0 +1,2 @@
+The firearm’s barrel is outfitted with a device that reduces visual muzzle flash and sound at a minor cost of firearm weight. Your attack rolls with the firearm have a -1 penalty, and the firearm is suppressed. This modification costs 150000 credits.
+#weapon_modifications #muzzle 

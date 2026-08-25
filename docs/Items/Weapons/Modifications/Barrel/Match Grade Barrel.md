@@ -1,0 +1,2 @@
+The firearm’s barrel has been refitted to much tighter specifications and tolerance than normal. The firearm can now benefit from using match grade bullets. This modification costs 30000 credits.
+#weapon_modifications #barrel 

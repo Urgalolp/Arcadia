@@ -1,0 +1,2 @@
+The firearm’s entire barrel has been transformed into a monolithic suppressor. Your attack rolls with the firearm’s have a -1 bonus, and the firearm’s is suppressed. This modification costs 150000 credits.
+#weapon_modifications #barrel 

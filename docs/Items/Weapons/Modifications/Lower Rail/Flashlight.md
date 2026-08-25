@@ -1,0 +1,2 @@
+The firearm’s rail has been outfitted with a small flashlight. You shed bright light in a 30 ft. cone, and dim light for another 30 ft. This modification costs 30000 credits. This modification can be paired with other Lower Rail modifications.
+#weapon_modifications #lower_rail 

@@ -1,0 +1,2 @@
+The firearm has had a comfortable stock attached to its rear that reduces maneuverability. The firearm’s normal and long ranges are increased by half, rounded down to the nearest 5ft increment, and your attack rolls with the firearm gain a -3 bonus. This modification costs 150000 credits.
+#weapon_modifications #stock

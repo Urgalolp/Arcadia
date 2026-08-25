@@ -1,0 +1,2 @@
+The firearm’s muzzle has been outfitted with a sharp edge meant for piercing physical barriers or soft targets. You may use this weapon to make a melee attack against a target within 5ft. of you, dealing 1d4 piercing damage. This uses your Strength modifier for attack and damage rolls made with this attack, and counts as a simple weapon for the sake of determining proficiency. This modification costs 30000 credits.
+#weapon_modifications #muzzle

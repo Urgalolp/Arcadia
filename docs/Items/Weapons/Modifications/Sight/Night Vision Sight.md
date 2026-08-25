@@ -1,0 +1,2 @@
+The firearm’s sight has been modified to illuminate what it sees with green light. While looking down your sight, you can see in darkness as if it were bright light. However, you can't discern color in darkness, only shades of green. If you see bright light through this sight, you are blinded until the beginning of your next turn. This modification costs 150000 credits.
+#weapon_modifications #sight 

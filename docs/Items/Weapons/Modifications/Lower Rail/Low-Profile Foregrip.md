@@ -1,0 +1,2 @@
+The firearm’s lower rail has been outfitted with a slanted grip to increase accuracy and maneuverability. Your attack and damage rolls with the firearm have a +1 bonus. This modification costs 70000 credits.
+#weapon_modifications #lower_rail 
