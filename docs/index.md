@@ -319,7 +319,7 @@ title: Arcadia Terminal
     // ================================================
 
     function continueToHome() {
-      window.location.href = "./Home/home"
+      window.location.href = "./DATABASE/"
     }
 
     // Desktop: Enter key
@@ -337,6 +337,7 @@ title: Arcadia Terminal
 
     // Mobile touch
     terminalInput.addEventListener("touchend", continueToHome)
+  }
 
   boot()
 })()
@@ -368,7 +369,7 @@ title: Arcadia Terminal
 }
 
 #terminal-output {
-  width: min(900px, 100%);
+  width: min(390px, 100%);
 
   margin: 0;
 
