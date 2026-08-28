@@ -92,7 +92,7 @@ title: Arcadia Terminal
     await typeText("> ")
 
     await typeText(
-      "M**************",
+      "F**************",
       40,
       90
     )

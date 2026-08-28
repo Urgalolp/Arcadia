@@ -1,3 +1,2 @@
-Ammunition is used by ranged weapons to performed ranged attacks. Most modern ammunition for guns and the sort are Rounds. Rounds are bullets, which are used as [[Items/Ammunition/Ammunition]] in most modern firearms. Rounds are a consumable type of ammunition. Each round weighs .1 lbs.
+The weight and cost of bullets is determined by the damage die of the weapon it is used for. Shotgun shells are a little heavier; use the weight value for bullets with the next up damage die. Listed costs are for 50 rounds unless stated otherwise. If a weapon has the Versatile property, use the higher damage die to determine which bullets to use for it.
 
-#system #items
