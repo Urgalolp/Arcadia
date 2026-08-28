@@ -1,2 +1,0 @@
-The firearm’s barrel is outfitted with a device that redistributes barrel gasses upwards to negate recoil. Your attack rolls with the firearm have a +1 bonus. This modification costs 70000 credits.
-#weapon_modifications #muzzle 

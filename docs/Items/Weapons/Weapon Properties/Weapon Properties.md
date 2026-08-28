@@ -1,0 +1,1 @@
+Many weapons have special properties related to their use, as shown in the Weapons table in the [[Melee Weapons]] and [[Items/Weapons/Firearms/Firearms]] sections.

@@ -1,2 +1,0 @@
-The firearm’s lower rail has been outfitted with a small, pump-action shotgun. It functions as a shotgun, though its reload property is reduced to 1, and it requires a bonus action to reload. You may ready or unready the shotgun as a bonus action. This modification costs 150000 credits.
-#weapon_modifications #lower_rail 

@@ -1,0 +1,3 @@
+A weapon that has the braced property is designed to be fired only when braced on a bipod, or a hard, stationary surface, such as a low wall. Bracing the weapon requires an action or a bonus action (the character’s choice). If the character moves after bracing the weapon, or drops the weapon, the weapon is no longer considered to be braced. While a weapon with this property is not braced, attack rolls with it are made at disadvantage unless the character's Strength score is equal to or higher than the number in parentheses.
+
+#weapon_property 

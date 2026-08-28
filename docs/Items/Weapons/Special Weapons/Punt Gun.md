@@ -1,0 +1,1 @@
+This extremely oversized shotgun was historically intended for hunting large numbers of birds simultaneously. When you attack with this weapon, you target a 90-foot cone. Each creature in the area must make a Dexterity saving throw (DC 20) or take the weapon's damage.

@@ -1,0 +1,2 @@
+The weapon's damage die is reduced one step (d12>d10>d8>d6>d4). If the weapon has the [[Braced]] property, it loses it. If the weapon has the [[Mounted]] property, it loses it and gains the [[Braced]] property.
+* **Restrictions.** Weapon uses bullets as ammunition. Weapon's damage die must not be a d4.

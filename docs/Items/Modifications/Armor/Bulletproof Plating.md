@@ -1,0 +1,4 @@
+The suit of armor is adjusted with additional platings, greatly boosting its defensive capabilities against firearms, and conferring some protection against other forms of harm, at the expense of bulk and weight. The armor has a damage reduction of 1. Against firearms, this damage reduction applies per damage die originating from the firearm or the ammunition it uses. Every time this modification is applied, the armor’s weight increases by 5 lbs. This modification costs 1500 credits, increased by 500 credits for each point of damage reduction the armor already has.
+* **Restriction:** The armor cannot have any **Bulwark Plating**.
+
+#modification_armor 

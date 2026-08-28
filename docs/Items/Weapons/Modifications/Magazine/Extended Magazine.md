@@ -1,2 +1,0 @@
-The firearm’s magazine has had its capacity increased. The firearm’s reload property increases by 1/4 its total shots, rounded down (minimum of 1). A firearm cannot have its magazine increased to more than 5 times its original capacity. This modification costs 30000 credits.
-#weapon_modifications #magazine

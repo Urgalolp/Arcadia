@@ -1,2 +1,0 @@
-The firearm’s upper rail has been outfitted with a small lens with a holographic dot. As a bonus action you may look down this sight, gaining a +1 to attack rolls made with the firearm. You may end this effect as a bonus action. This modification costs 30000 credits.
-#weapon_modifications #upper_rail

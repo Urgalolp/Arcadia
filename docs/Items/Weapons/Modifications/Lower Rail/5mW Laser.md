@@ -1,2 +1,0 @@
-The firearm’s rail has been outfitted with a laser light device that makes target alignment far easier at the cost of stealth. Your attack rolls with the firearm have a +2 bonus, but creatures with a passive perception of 12 or higher can see a 30 ft. line of light emanating from the end of your barrel. This modification costs 70000 credits. This modification can be paired with other Lower Rail modifications, except 1 mW Laser.
-#weapon_modifications #lower_rail 

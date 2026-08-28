@@ -1,0 +1,3 @@
+Short for "selective fire", this weapon can alternate between automatic and non-automatic shooting. When you make an attack with this weapon on your turn, you can choose to make two attacks with disadvantage instead. These attacks always have disadvantage, regardless of circumstance, and the targets of both attacks must be within 5 feet of one another (both attacks can be made against the same target). These attacks use double the normal amount of ammunition.
+
+#weapon_property 

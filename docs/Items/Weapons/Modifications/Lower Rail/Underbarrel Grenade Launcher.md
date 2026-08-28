@@ -1,2 +1,0 @@
-The firearm’s lower rail has been outfitted with a thick, tubular grenade launcher. It functions as a grenade launcher, though its reload property is reduced to 1, and it requires a bonus action to reload. This modification costs 150000 credits.
-#weapon_modifications #lower_rail 

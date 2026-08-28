@@ -1,0 +1,5 @@
+Weapons which were used historically, but have fallen out of popular use, are considered Archaic. The majority of the weapons found in the Player's Handbook are considered Archaic. A character is not assumed to be proficient in an Archaic weapon, even if they are proficient in the category that the weapon falls under.
+
+For example, Sadie has taken the Soldier advanced class, so she is proficient in "all weapons". However, it is down to the GM to decide whether she is proficient with a well-preserved longsword that she finds while exploring some old ruins. This decision should usually be based on whether the character has particular experience with another weapon similar to the Archaic weapon, or whether the character has specific knowledge of historic armaments. In Sadie's case, she hasn't really spent any time around historic weapons, but she has displayed a particular knack with a machete in the past, so the GM decides she is proficient in the longsword.
+
+#weapon_property 

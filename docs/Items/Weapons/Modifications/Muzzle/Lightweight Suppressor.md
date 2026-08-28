@@ -1,2 +1,0 @@
-The firearm’s barrel is outfitted with a device that reduces visual muzzle flash and sound. The firearm’s normal and maximum range are decreased by ¼ of their values, rounded up to the nearest 5 ft increment, and the firearm is suppressed. This modification costs 150000 credits.
-#weapon_modifications #muzzle 

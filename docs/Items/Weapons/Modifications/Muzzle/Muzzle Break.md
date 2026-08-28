@@ -1,2 +1,0 @@
-The firearm’s barrel is outfitted with a device that redistributes barrel gasses to reduce barrel destabilization. Your first attack roll with the firearm each round has a +1 bonus. This modification costs 30000 credits.
-#weapon_modifications #muzzle

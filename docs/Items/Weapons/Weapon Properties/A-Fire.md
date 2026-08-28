@@ -1,0 +1,3 @@
+Short for "automatic fire", this weapon continually fires as long as the trigger is held. When you make an attack with this weapon on your turn, you instead make two attacks with disadvantage. These attacks always have disadvantage, regardless of circumstance, and the targets of both attacks must be within 5 feet of one another (both attacks can be made against the same target). These attacks use double the normal amount of ammunition.
+
+#weapon_property

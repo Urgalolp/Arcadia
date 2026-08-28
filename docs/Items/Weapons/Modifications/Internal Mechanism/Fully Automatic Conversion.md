@@ -1,2 +1,0 @@
-The firearm's bolt and feeding system have been modified to allow fire in full automatic. The firearm gains the burst fire property. This modification costs 150000 credits.
-#weapon_modifications #internal_modification 

@@ -1,2 +1,0 @@
-The firearm's bolt and feeding system have been modified to allow fire in short bursts. The firearm gains the short burst (1) property. If the firearm already has the short burst property, it’s increased by one. This modification costs 70000 credits.
-#weapon_modifications #internal_modification

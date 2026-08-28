@@ -1,2 +1,0 @@
-The firearm’s upper rail has been outfitted with a larger lens with a holographic dot, enabling greater magnification. If you have not moved since the end of your last turn, you may look down this sight as a bonus action, halving your speed (rounded down to the nearest 5ft increment) and gaining a +2 to attack rolls and damage rolls made with the firearm. You may end this effect as a bonus action. This modification costs 70000 credits.
-#weapon_modifications #upper_rail 

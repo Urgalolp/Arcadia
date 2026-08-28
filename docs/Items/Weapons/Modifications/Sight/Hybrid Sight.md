@@ -1,2 +1,0 @@
-The firearm’s sight has been modified to have its own upper rail. You may attach a second sight to the weapon. This second sight can not have a sight modification. This modification costs 70000 credits.
-#weapon_modifications #sight

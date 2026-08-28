@@ -1,0 +1,4 @@
+A weapon is integrated in the suit of armor in order to provide the wearer with defensive tools for ranged combat, or as a backup weapon. Choose any one-handed ranged weapon (firearms included) when applying this modification. While you are wearing the suit of armor, you always have that weapon equipped, and do not require a free hand to use it. The weapon cannot be safely removed from the suit of armor without undoing this modification, and still requires proficiency to be used appropriately. If the weapon has the ammunition property, it requires a bonus action to reload, or an action if it's a firearm. This modification costs 2 times the value of the weapon.
+* **Restriction:** Only medium and heavy armors. This modification can be applied a maximum of twice, sharing ‘slots’ with **Melee Integration**.
+
+#modification_armor 

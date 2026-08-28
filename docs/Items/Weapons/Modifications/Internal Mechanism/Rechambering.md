@@ -1,2 +1,0 @@
-The firearm's internal mechanisms have been rechambered to accept higher caliber ammunition. Each damage die of the firearm is increased by one step in size. This modification costs 150000 credits.
-#weapon_modifications #internal_modification 

@@ -1,2 +1,0 @@
-The firearm’s lower rail has been outfitted with a small retractable bipod. Your attacks do not have disadvantage while prone, and if you have not moved since the start of your previous turn, your attacks have a +1 bonus to attack and damage rolls. This modification costs 70000 credits.
-#weapon_modifications #lower_rail 

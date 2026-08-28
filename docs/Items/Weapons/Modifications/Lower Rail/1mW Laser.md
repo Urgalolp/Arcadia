@@ -1,2 +1,0 @@
-The firearm’s rail has been outfitted with a laser light device that's low wattage makes it almost invisible to anyone except yourself. Your attack rolls with the firearm have a +1 bonus. This modification costs 70000 credits. This modification can be paired with other Lower Rail modifications, except 5 mW Laser.
-#weapon_modifications #lower_rail

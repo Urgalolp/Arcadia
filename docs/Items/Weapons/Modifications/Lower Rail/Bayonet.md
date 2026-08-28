@@ -1,2 +1,0 @@
-The firearm’s lower rail has been outfitted with a knife. You may use this weapon to make a melee attack against a target within 5ft. of you, dealing 1d6 piercing damage. This uses your Strength modifier for attack and damage rolls made with this attack, and counts as a simple firearm for the sake of determining proficiency. This modification costs 70000 credits.
-#weapon_modifications #lower_rail 

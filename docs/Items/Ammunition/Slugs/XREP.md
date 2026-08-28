@@ -1,0 +1,3 @@
+Essentially a miniature stun gun, creatures have resistance to bludgeoning damage from attacks using XREP ammunition. Additionally, successful attacks using XREP ammunition deal an additional 1d4 lightning damage. A creature hit with an XREP slug must make a Constitution saving throw (DC 15) or be incapacitated. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the effect ends on the target.
+
+#ammunition 
