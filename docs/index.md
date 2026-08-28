@@ -68,7 +68,7 @@ title: Arcadia Terminal
     await writeLine("")
 
     await writeLine(
-      "----------------------------------------------"
+      "---------------------------------------------"
     )
 
     await sleep(800)
@@ -163,7 +163,7 @@ title: Arcadia Terminal
     await sleep(500)
 
     await writeLine(
-      "----------------------------------------------"
+      "---------------------------------------------"
     )
 
 
@@ -222,7 +222,7 @@ title: Arcadia Terminal
     await writeLine("")
 
     await writeLine(
-      "----------------------------------------------"
+      "---------------------------------------------"
     )
 
     // Pause before connecting
@@ -300,7 +300,7 @@ title: Arcadia Terminal
     await writeLine("")
 
     await writeLine(
-      "----------------------------------------------"
+      "---------------------------------------------"
     )
 
     await writeLine("")
@@ -371,7 +371,7 @@ title: Arcadia Terminal
 }
 
 #terminal-output {
-  width: 380px;
+  width: 400px;
   max-width: calc(100vw - 2rem);
 
   margin: 0;
@@ -393,7 +393,7 @@ title: Arcadia Terminal
 #terminal-input {
   display: none;
 
-  width: 380px;
+  width: 400px;
   max-width: calc(100vw - 2rem);
 
   margin-top: 2rem;
@@ -480,7 +480,7 @@ title: Arcadia Terminal
    VERY SMALL PHONES
    ========================================================= */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
 
   #arcadia-terminal {
     padding: 0.75rem;
