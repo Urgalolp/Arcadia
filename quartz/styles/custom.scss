@@ -5,14 +5,15 @@
    GLOBAL TERMINAL THEME
    ========================================================= */
 
-/* ---------------------------------------------------------
-   VARIABLES
-   --------------------------------------------------------- */
+/* =========================================================
+   ARCADIA VARIABLES
+   ========================================================= */
 
 :root {
   --arcadia-black: #000;
   --arcadia-dark: #080808;
   --arcadia-panel: #0d0d0d;
+
   --arcadia-line: #303030;
   --arcadia-line-bright: #555;
 
@@ -24,6 +25,24 @@
     "IBM Plex Mono",
     "Courier New",
     monospace;
+
+  /*
+   * Quartz's native variables.
+   * Arcadia is permanently dark, so force Quartz's
+   * own palette to use the Arcadia palette as well.
+   */
+
+  --light: #000;
+  --lightgray: #0d0d0d;
+  --gray: #555;
+  --darkgray: #888;
+  --dark: #e0e0e0;
+
+  --secondary: #e0e0e0;
+  --tertiary: #888;
+
+  --highlight: rgba(255, 255, 255, 0.08);
+  --textHighlight: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -42,7 +61,7 @@ body {
   line-height: 1.5;
 }
 
-/* Remove the soft/rounded web-app appearance */
+/* Remove rounded modern-web styling */
 
 button,
 input,
@@ -84,14 +103,6 @@ h1 {
   text-transform: uppercase;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: none;
-}
-
 
 /* =========================================================
    LINKS
@@ -120,7 +131,7 @@ a:hover {
 
 
 /* =========================================================
-   HEADER
+   PAGE HEADER
    ========================================================= */
 
 .page-header {
@@ -341,18 +352,11 @@ a:hover {
 
 
 /* =========================================================
-   DARK MODE
+   PERMANENT DARK APPEARANCE
    ========================================================= */
 
-/*
-   Arcadia is permanently dark.
-   The theme toggle itself is disabled in quartz.config.yaml.
-*/
-
-body {
-  background: #000 !important;
-}
-
+html,
+body,
 #quartz-root,
 #quartz-body,
 .center,
@@ -525,14 +529,10 @@ select:focus {
   font-family: var(--arcadia-font);
 }
 
-/* Preview inner container */
-
 .popover .popover-inner {
   background: var(--arcadia-panel) !important;
   color: var(--arcadia-text) !important;
 }
-
-/* Preview article */
 
 .popover article,
 .popover .popover-hint,
@@ -540,8 +540,6 @@ select:focus {
   background: var(--arcadia-panel) !important;
   color: var(--arcadia-text) !important;
 }
-
-/* Preview text */
 
 .popover p,
 .popover li,
@@ -551,8 +549,6 @@ select:focus {
   color: var(--arcadia-text);
   font-family: var(--arcadia-font);
 }
-
-/* Preview headings */
 
 .popover h1,
 .popover h2,
@@ -564,8 +560,6 @@ select:focus {
   font-family: var(--arcadia-font);
 }
 
-/* Preview links */
-
 .popover a {
   color: var(--arcadia-text);
 }
@@ -574,13 +568,9 @@ select:focus {
   color: var(--arcadia-bright);
 }
 
-/* Preview metadata */
-
 .popover .content-meta {
   color: var(--arcadia-dim) !important;
 }
-
-/* Preview code */
 
 .popover code {
   background: #000 !important;
@@ -593,8 +583,6 @@ select:focus {
   color: var(--arcadia-text) !important;
   border-color: var(--arcadia-line);
 }
-
-/* Images */
 
 .popover img {
   border-radius: 0;
@@ -676,11 +664,63 @@ footer {
 
 
 /* =========================================================
+   HOME — TERMINAL WELCOME
+   ========================================================= */
+
+.terminal-welcome {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+
+  font-family: var(--arcadia-font);
+  color: var(--arcadia-text);
+
+  padding: 1rem 0 2rem;
+
+  animation: terminal-welcome-in 0.8s ease-out;
+}
+
+.terminal-welcome .terminal-line {
+  display: block;
+  min-height: 1.5em;
+  white-space: nowrap;
+}
+
+.terminal-welcome strong {
+  color: var(--arcadia-bright);
+  font-weight: 600;
+}
+
+@keyframes terminal-welcome-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*
+ * Give the Home/Archives page a wider terminal workspace.
+ */
+
+body:has(.terminal-welcome) .page-header,
+body:has(.terminal-welcome) article {
+  max-width: 1200px;
+  width: calc(100% - 4rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* =========================================================
    MOBILE
    ========================================================= */
 
 @media all and (max-width: 800px) {
-
   .left.sidebar {
     border-right: none;
     border-bottom: 1px solid var(--arcadia-line);
@@ -690,7 +730,6 @@ footer {
     border-left: none;
     border-top: 1px solid var(--arcadia-line);
   }
-
 }
 
 
@@ -699,7 +738,6 @@ footer {
    ========================================================= */
 
 @media all and (max-width: 600px) {
-
   .page-header {
     padding-bottom: 0.75rem;
     margin-bottom: 1.5rem;
@@ -717,39 +755,23 @@ footer {
     max-width: calc(100vw - 2rem);
   }
 
-}
-
-/* =========================================================
-   HOME — TERMINAL WELCOME
-   ========================================================= */
-
-.terminal-welcome {
-  font-family: var(--arcadia-font);
-  color: var(--arcadia-text);
-
-  padding: 1rem 0 2rem;
-
-  animation: terminal-welcome-in 0.8s ease-out;
-}
-
-.terminal-welcome .terminal-line {
-  display: block;
-  min-height: 1.5em;
-}
-
-.terminal-welcome strong {
-  color: var(--arcadia-bright);
-  font-weight: 600;
-}
-
-@keyframes terminal-welcome-in {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
+  body:has(.terminal-welcome) .page-header,
+  body:has(.terminal-welcome) article {
+    width: calc(100% - 1.5rem);
   }
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  .terminal-welcome .terminal-line {
+    white-space: normal;
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media all and (max-width: 380px) {
+  .terminal-welcome {
+    font-size: 0.9rem;
   }
 }
