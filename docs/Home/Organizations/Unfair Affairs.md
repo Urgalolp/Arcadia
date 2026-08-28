@@ -1,5 +1,5 @@
 The UA is a primarily private military organization led by one [[Major Althir Vaelis Daelthorn||Althir Vaelis]]. It concentrates units from all over the globe, often prioritizing elite individuals of Christian ideology, and is known to have partaken in a multitude of wars rather than individualized operations. No country is known to have any manner of significant influence over the organization, and little to no information is known about the group from outsiders.
 
 Unfair Affairs is composed of independent members, being a more fluid organization than much else. It has a central structure revolving around its leader, though its members are not swore to any oath, nor are they subject to any strict set of rules beyond the code of honor that prevents them from betraying one another. Similarly, since all of its members are independent, said members can outright reject orders and summons should they desire, though such a freedom comes at the expense of supplies: Just as members can choose not to obey commands or answer summons, they can also be denied resources and equipment in favor of members that cooperate.
-![[Images/Organizations/UA.png]]
+![[UA.png]]
 #organization 

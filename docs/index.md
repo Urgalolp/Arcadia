@@ -7,7 +7,7 @@ title: Arcadia Terminal
 <pre id="terminal-output"></pre>
 
 <div id="terminal-input">
-  <span id="terminal-prompt">[ PRESS ENTER TO CONTINUE ]</span>
+  <span id="terminal-prompt">[ PRESS ENTER OR CLICK TO CONTINUE ]</span>
   <span id="terminal-cursor">█</span>
 </div>
 
@@ -318,26 +318,25 @@ title: Arcadia Terminal
     // WAIT FOR ENTER
     // ================================================
 
-    terminalInput.style.display = "block"
+    function continueToHome() {
+      window.location.href = "./Home/home"
+    }
 
-    function continueToHome(event) {
-
+    // Desktop: Enter key
+    function handleEnter(event) {
       if (event.key === "Enter") {
-
-        window.removeEventListener(
-          "keydown",
-          continueToHome
-        )
-
-        window.location.href = "./home"
+        window.removeEventListener("keydown", handleEnter)
+        continueToHome()
       }
     }
 
-    window.addEventListener(
-      "keydown",
-      continueToHome
-    )
-  }
+    window.addEventListener("keydown", handleEnter)
+
+    // Mobile / mouse: tap or click the prompt
+    terminalInput.addEventListener("click", continueToHome)
+
+    // Mobile touch
+    terminalInput.addEventListener("touchend", continueToHome)
 
   boot()
 })()
@@ -400,6 +399,10 @@ title: Arcadia Terminal
   font-size: 14px;
 
   animation: blink 1s steps(1) infinite;
+
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @keyframes blink {
