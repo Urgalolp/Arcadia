@@ -174,7 +174,7 @@ plugins:
       position: left
       priority: 10
   - source: "@quartz-community/darkmode"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30

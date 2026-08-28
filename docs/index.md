@@ -1,69 +1,407 @@
 ---
-title: Welcome to Quartz 5
+title: Arcadia Terminal
 ---
 
-Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
+<div id="arcadia-terminal">
 
-## 🪴 Get Started
+<pre id="terminal-output"></pre>
 
-Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have these installed on your machine before continuing. See the [[getting-started/index#Prerequisites|prerequisites]] for help installing them.
+<div id="terminal-input">
+  <span id="terminal-prompt">[ PRESS ENTER TO CONTINUE ]</span>
+  <span id="terminal-cursor">█</span>
+</div>
 
-> [!tip] GitHub users
-> You can also use the **[GitHub template](https://github.com/jackyzha0/quartz/generate)** to create your repository in one click, then clone that instead. See [[installation#Option A Use the GitHub Template Recommended|Option A]] in the installation guide.
+</div>
 
-```shell
-# 1. Clone the Quartz repository
-git clone https://github.com/jackyzha0/quartz.git
-cd quartz
+<script>
+(() => {
+  const output = document.getElementById("terminal-output")
+  const terminalInput = document.getElementById("terminal-input")
 
-# 2. Install dependencies
-npm i
+  if (!output || !terminalInput) return
 
-# 3. Initialize your site (choose a template, set your base URL, import content)
-npx quartz create
+  const sleep = ms =>
+    new Promise(resolve => setTimeout(resolve, ms))
 
-# 4. Install plugins referenced by your chosen template
-npx quartz plugin install --from-config
+  async function typeText(text, min = 20, max = 50) {
+    for (const char of text) {
+      output.textContent += char
 
-# 5. Preview your site locally
-npx quartz build --serve
-```
+      const delay =
+        min + Math.random() * (max - min)
 
-Your site is now running at `http://localhost:8080`. From here:
+      await sleep(delay)
+    }
+  }
 
-- **[[authoring-content|Write content]]** in the `content/` folder
-- **[[installation|Push to GitHub]]** with `npx quartz sync`
-- **[[hosting|Deploy]]** to GitHub Pages, Cloudflare, Netlify, or Vercel
+  async function writeLine(text = "", min = 20, max = 50) {
+    await typeText(text, min, max)
+    output.textContent += "\n"
+  }
 
-For the full walkthrough, see the [[getting-started/index|Getting Started]] guide.
+  async function boot() {
 
-### Returning User?
+    // ================================================
+    // HEADER
+    // ================================================
 
-Already have a Quartz repository and cloning it on a new machine?
+    await writeLine(
+      "██████████████████████████████████████████████"
+    )
 
-```shell
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-npm ci
-npx quartz plugin install
-npx quartz build --serve
-```
+    await writeLine("")
 
-> [!tip]
-> If you hit build errors on a fresh clone, try `npx quartz plugin install --latest` to refresh plugins to their latest versions. See [[troubleshooting#Plugins fail to build on a fresh clone]] for details.
+    await writeLine(
+      "                 A R C A D I A"
+    )
 
-## 🔧 Features
+    await writeLine(
+      "              INFORMATION INDEX"
+    )
 
-- [[Obsidian compatibility]], [[full-text search]], [[graph view]], [[wikilinks|wikilinks, transclusions]], [[plugins/Backlinks]], [[features/Latex|Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], [[i18n|internationalization]], [[features/comments|comments]] and [many more](./features/) right out of the box
-- Hot-reload on configuration edits and incremental rebuilds for content edits
-- Simple JSX layouts and [[creating components|page components]]
-- [[SPA Routing|Ridiculously fast page loads]] and tiny bundle sizes
-- Fully-customizable parsing, filtering, and page generation through [[making plugins|plugins]]
+    await writeLine("")
 
-For a comprehensive list of features, visit the [features page](./features/). You can read more about the _why_ behind these features on the [[philosophy]] page and a technical overview on the [[architecture]] page.
+    await writeLine(
+      "          SECURE TERMINAL v5.7.21"
+    )
 
-### 🚧 Troubleshooting + Updating
+    await writeLine("")
 
-Having trouble with Quartz? Try searching for your issue using the search feature or check the [[troubleshooting]] page. If you haven't already, [[upgrading|upgrade]] to the newest version of Quartz to see if this fixes your issue.
+    await writeLine(
+      "----------------------------------------------"
+    )
 
-If you're still having trouble, feel free to [submit an issue](https://github.com/jackyzha0/quartz/issues) if you feel you found a bug or ask for help in our [Discord Community](https://discord.gg/cRFFHYye7t). You can also browse the [[community]] page for third-party plugins and resources.
+    await sleep(800)
+
+
+    // ================================================
+    // USER IDENTIFICATION
+    // ================================================
+
+    await writeLine("")
+
+    await writeLine("USER IDENTIFICATION")
+
+    await writeLine("")
+
+    // Username
+    await writeLine("USERNAME")
+
+    await sleep(250)
+
+    await typeText("> ")
+
+    await typeText(
+      "M**************",
+      40,
+      90
+    )
+
+    output.textContent += "\n"
+
+    await sleep(350)
+
+
+    // Password
+    await writeLine("PASSWORD")
+
+    await sleep(250)
+
+    await typeText("> ")
+
+    const correctPassword = "**************"
+
+    // 5% chance of typing the password incorrectly
+    const incorrectPassword = Math.random() < 0.05
+
+    if (incorrectPassword) {
+
+      // Type incorrect password
+      await typeText(
+        "************",
+        40,
+        100
+      )
+
+      await sleep(300)
+
+      // Erase incorrect password
+      for (let i = 0; i < 12; i++) {
+
+        output.textContent =
+          output.textContent.slice(0, -1)
+
+        await sleep(60)
+      }
+
+      await sleep(200)
+
+      // Type correct password
+      await typeText(
+        correctPassword,
+        40,
+        100
+      )
+
+      output.textContent += "\n"
+
+      // Pause after correcting password
+      await sleep(1000)
+
+    } else {
+
+      // Type correct password
+      await typeText(
+        correctPassword,
+        40,
+        100
+      )
+
+      output.textContent += "\n"
+    }
+
+    await sleep(500)
+
+    await writeLine(
+      "----------------------------------------------"
+    )
+
+
+    // ================================================
+    // VERIFYING CREDENTIALS
+    // ================================================
+
+    await sleep(500)
+
+    await writeLine("")
+
+    await writeLine(
+      "VERIFYING CREDENTIALS..."
+    )
+
+    await sleep(500)
+
+    const barLength = 32
+    const barDuration = 3000
+    const barInterval = barDuration / barLength
+
+    // Create empty bar
+    output.textContent +=
+      "[" + " ".repeat(barLength) + "]"
+
+    for (let i = 1; i <= barLength; i++) {
+
+      await sleep(barInterval)
+
+      const bar =
+        "█".repeat(i) +
+        " ".repeat(barLength - i)
+
+      // Replace the existing bar
+      output.textContent =
+        output.textContent.replace(
+          /\[[█ ]*\]$/,
+          `[${bar}]`
+        )
+    }
+
+    output.textContent += "\n"
+
+    await writeLine("")
+
+    await writeLine(
+      "IDENTITY CONFIRMED"
+    )
+
+    await writeLine("")
+
+    await writeLine(
+      "ACCESS LEVEL: ███████"
+    )
+
+    await writeLine("")
+
+    await writeLine(
+      "----------------------------------------------"
+    )
+
+    // Pause before connecting
+    await sleep(2000)
+
+
+    // ================================================
+    // CONNECTING TO INDEX
+    // ================================================
+
+    await writeLine("")
+
+    await typeText(
+      "CONNECTING TO INDEX"
+    )
+
+    // One second per dot
+    await sleep(1000)
+    await typeText(".")
+
+    await sleep(1000)
+    await typeText(".")
+
+    await sleep(1000)
+    await typeText(".")
+
+
+    // 3% chance of taking longer to locate the index
+    if (Math.random() < 0.03) {
+
+      await sleep(1000)
+
+      await typeText("...")
+
+      await sleep(1000)
+
+      await typeText("...")
+
+      await sleep(1000)
+
+      await typeText("...")
+    }
+
+    output.textContent += "\n\n"
+
+
+    // ================================================
+    // SYSTEM CHECKS
+    // ================================================
+
+    const systems = [
+      "DATABASE",
+      "ARCHIVE",
+      "CARTOGRAPHY",
+      "PERSONNEL",
+      "CLASSIFIED",
+      "HISTORICAL RECORDS"
+    ]
+
+    for (const system of systems) {
+
+      // Two seconds per system
+      await sleep(1000)
+
+      await writeLine(
+        `[ OK ] ${system}`
+      )
+    }
+
+
+    // ================================================
+    // ACCESS GRANTED
+    // ================================================
+
+    await writeLine("")
+
+    await writeLine(
+      "----------------------------------------------"
+    )
+
+    await writeLine("")
+
+    await sleep(500)
+
+    await writeLine(
+      "          ACCESS GRANTED."
+    )
+
+    await sleep(1500)
+
+
+    // ================================================
+    // WAIT FOR ENTER
+    // ================================================
+
+    terminalInput.style.display = "block"
+
+    function continueToHome(event) {
+
+      if (event.key === "Enter") {
+
+        window.removeEventListener(
+          "keydown",
+          continueToHome
+        )
+
+        window.location.href = "./home"
+      }
+    }
+
+    window.addEventListener(
+      "keydown",
+      continueToHome
+    )
+  }
+
+  boot()
+})()
+</script>
+
+<style>
+#arcadia-terminal {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+
+  background: #000;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family:
+    "IBM Plex Mono",
+    "Courier New",
+    monospace;
+
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+/* This controls the width of the terminal itself */
+#terminal-output,
+#terminal-input {
+  width: min(388px, calc(100vw - 8rem));
+}
+
+/* The actual terminal text */
+#terminal-output {
+  margin: 0;
+
+  white-space: pre-wrap;
+
+  font-family:
+    "IBM Plex Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* Center the whole terminal block */
+#arcadia-terminal {
+  flex-direction: column;
+}
+
+/* Enter prompt */
+#terminal-input {
+  display: none;
+
+  margin-top: 2rem;
+
+  font-family:
+    "IBM Plex Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 14px;
+}
+</style>

@@ -1,3 +1,599 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* =========================================================
+   ARCADIA INFORMATION INDEX
+   GLOBAL TERMINAL THEME
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   VARIABLES
+   --------------------------------------------------------- */
+
+:root {
+  --arcadia-black: #000;
+  --arcadia-dark: #080808;
+  --arcadia-panel: #0d0d0d;
+  --arcadia-line: #303030;
+  --arcadia-line-bright: #555;
+
+  --arcadia-text: #e0e0e0;
+  --arcadia-dim: #888;
+  --arcadia-bright: #fff;
+
+  --arcadia-font:
+    "IBM Plex Mono",
+    "Courier New",
+    monospace;
+}
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+html,
+body {
+  background: var(--arcadia-black);
+  color: var(--arcadia-text);
+  font-family: var(--arcadia-font);
+}
+
+body {
+  line-height: 1.5;
+}
+
+/* Remove the soft/rounded web-app appearance */
+
+button,
+input,
+textarea,
+select {
+  font-family: var(--arcadia-font);
+  border-radius: 0 !important;
+}
+
+
+/* =========================================================
+   TEXT
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--arcadia-font);
+  color: var(--arcadia-bright);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+}
+
+p,
+li {
+  font-family: var(--arcadia-font);
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+  color: var(--arcadia-text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--arcadia-bright);
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   MAIN PAGE
+   ========================================================= */
+
+#quartz-body {
+  background: var(--arcadia-black);
+}
+
+/*
+   Give the main content a more terminal-like structure.
+*/
+
+.center {
+  background: var(--arcadia-black);
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.page-header {
+  border-bottom: 1px solid var(--arcadia-line);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.article-title {
+  font-family: var(--arcadia-font);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.content-meta {
+  color: var(--arcadia-dim);
+  font-family: var(--arcadia-font);
+}
+
+
+/* =========================================================
+   SIDEBARS
+   ========================================================= */
+
+.sidebar {
+  font-family: var(--arcadia-font);
+  background: var(--arcadia-black);
+}
+
+/*
+   Quartz normally uses a more conventional webpage
+   appearance here. Make it resemble a terminal panel.
+*/
+
+.left.sidebar {
+  border-right: 1px solid var(--arcadia-line);
+}
+
+.right.sidebar {
+  border-left: 1px solid var(--arcadia-line);
+}
+
+
+/* =========================================================
+   SITE TITLE
+   ========================================================= */
+
+.page-title {
+  font-family: var(--arcadia-font);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.page-title a {
+  color: var(--arcadia-bright);
+}
+
+
+/* =========================================================
+   EXPLORER — ARCADIA FILE SYSTEM
+   ========================================================= */
+
+.explorer {
+  font-family: var(--arcadia-font);
+}
+
+/* Explorer heading */
+
+.explorer .title-button {
+  border: none;
+  border-bottom: 1px solid var(--arcadia-line);
+  padding-bottom: 0.6rem;
+}
+
+.explorer .title-button h2 {
+  font-size: 0;
+  font-family: var(--arcadia-font);
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.explorer .title-button h2::before {
+  content: "FILE SYSTEM";
+  font-size: 0.85rem;
+}
+
+/* Explorer tree */
+
+.explorer-content {
+  margin-top: 0.5rem;
+  font-family: var(--arcadia-font);
+}
+
+/* Files */
+
+.explorer-content .nav-file-title {
+  font-family: var(--arcadia-font);
+}
+
+.explorer-content .nav-file-title a {
+  color: var(--arcadia-text);
+  font-family: var(--arcadia-font);
+  text-decoration: none;
+}
+
+/* File prompt */
+
+.explorer-content .nav-file-title a::before {
+  content: "> ";
+  color: var(--arcadia-dim);
+}
+
+/* File hover */
+
+.explorer-content .nav-file-title:hover {
+  background: var(--arcadia-panel);
+}
+
+.explorer-content .nav-file-title:hover a {
+  color: var(--arcadia-bright);
+}
+
+.explorer-content .nav-file-title:hover a::before {
+  color: var(--arcadia-bright);
+}
+
+/* Folders */
+
+.explorer-content .folder-container {
+  font-family: var(--arcadia-font);
+}
+
+.explorer-content .folder-title {
+  font-family: var(--arcadia-font);
+  color: var(--arcadia-text);
+}
+
+/* Hide Quartz's folder chevron */
+
+.explorer-content .folder-icon {
+  display: none;
+}
+
+/* Folder prefix */
+
+.explorer-content .folder-title::before {
+  content: "[DIR] ";
+  color: var(--arcadia-dim);
+}
+
+/* Folder hover */
+
+.explorer-content .folder-container:hover {
+  background: var(--arcadia-panel);
+}
+
+.explorer-content .folder-container:hover .folder-title {
+  color: var(--arcadia-bright);
+}
+
+.explorer-content .folder-container:hover .folder-title::before {
+  color: var(--arcadia-bright);
+}
+
+/* Remove rounded UI */
+
+.explorer-content,
+.explorer-content ul,
+.explorer-content li {
+  border-radius: 0;
+}
+
+/* Folder hierarchy */
+
+.explorer-content .folder-outer {
+  border-left: 1px solid var(--arcadia-line);
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+}
+
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+
+.search-button {
+  font-family: var(--arcadia-font);
+  background: transparent;
+  border: 1px solid var(--arcadia-line);
+  color: var(--arcadia-text);
+}
+
+.search-button:hover {
+  border-color: var(--arcadia-line-bright);
+  background: var(--arcadia-panel);
+}
+
+.search-button p {
+  font-family: var(--arcadia-font);
+}
+
+.search-container {
+  font-family: var(--arcadia-font);
+}
+
+.search-bar {
+  background: var(--arcadia-black);
+  color: var(--arcadia-text);
+  border: 1px solid var(--arcadia-line);
+  border-radius: 0;
+  font-family: var(--arcadia-font);
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: var(--arcadia-line-bright);
+}
+
+
+/* =========================================================
+   DARK MODE / LIGHT MODE
+   ========================================================= */
+
+/*
+   Force the Arcadia interface to remain dark.
+*/
+
+body {
+  background: #000 !important;
+}
+
+#quartz-root,
+#quartz-body {
+  background: #000 !important;
+}
+
+
+/* =========================================================
+   CODE
+   ========================================================= */
+
+code {
+  background: var(--arcadia-panel);
+  color: var(--arcadia-text);
+  border: 1px solid var(--arcadia-line);
+  border-radius: 0;
+  font-family: var(--arcadia-font);
+}
+
+pre {
+  background: var(--arcadia-panel);
+  border: 1px solid var(--arcadia-line);
+  border-radius: 0;
+  font-family: var(--arcadia-font);
+}
+
+pre code {
+  font-family: var(--arcadia-font);
+}
+
+
+/* =========================================================
+   BLOCKQUOTES
+   ========================================================= */
+
+blockquote {
+  border-left: 2px solid var(--arcadia-line-bright);
+  color: var(--arcadia-dim);
+  font-family: var(--arcadia-font);
+}
+
+
+/* =========================================================
+   CALLOUTS
+   ========================================================= */
+
+.callout {
+  background: var(--arcadia-panel);
+  border: 1px solid var(--arcadia-line);
+  border-radius: 0;
+}
+
+.callout-title {
+  font-family: var(--arcadia-font);
+}
+
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--arcadia-font);
+}
+
+th,
+td {
+  border: 1px solid var(--arcadia-line);
+  padding: 0.6rem 0.8rem;
+}
+
+th {
+  background: var(--arcadia-panel);
+  color: var(--arcadia-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tr:hover {
+  background: var(--arcadia-panel);
+}
+
+
+/* =========================================================
+   HORIZONTAL RULES
+   ========================================================= */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--arcadia-line);
+  margin: 2rem 0;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+button {
+  background: var(--arcadia-black);
+  color: var(--arcadia-text);
+  border: 1px solid var(--arcadia-line);
+}
+
+button:hover {
+  background: var(--arcadia-panel);
+  border-color: var(--arcadia-line-bright);
+}
+
+
+/* =========================================================
+   INPUTS
+   ========================================================= */
+
+input,
+textarea,
+select {
+  background: var(--arcadia-black);
+  color: var(--arcadia-text);
+  border: 1px solid var(--arcadia-line);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--arcadia-line-bright);
+}
+
+
+/* =========================================================
+   BREADCRUMBS
+   ========================================================= */
+
+.breadcrumb-container {
+  font-family: var(--arcadia-font);
+  color: var(--arcadia-dim);
+}
+
+.breadcrumb-element {
+  color: var(--arcadia-text);
+}
+
+
+/* =========================================================
+   GRAPH
+   ========================================================= */
+
+.graph {
+  background: var(--arcadia-black);
+  border: 1px solid var(--arcadia-line);
+  border-radius: 0;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+  border-top: 1px solid var(--arcadia-line);
+  font-family: var(--arcadia-font);
+  color: var(--arcadia-dim);
+}
+
+
+/* =========================================================
+   SELECTION
+   ========================================================= */
+
+::selection {
+  background: var(--arcadia-bright);
+  color: var(--arcadia-black);
+}
+
+
+/* =========================================================
+   SCROLLBARS
+   ========================================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--arcadia-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--arcadia-line);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--arcadia-line-bright);
+}
+
+
+/* =========================================================
+   TERMINAL DETAILS
+   ========================================================= */
+
+/*
+   Subtle monospace spacing throughout the interface.
+*/
+
+.nav-file-title,
+.nav-folder-title,
+.explorer,
+.search,
+.page-title,
+.breadcrumb-container {
+  font-family: var(--arcadia-font);
+}
+
+
+/*
+   Make small UI labels resemble terminal status text.
+*/
+
+.content-meta,
+.explorer h2,
+.breadcrumb-container {
+  letter-spacing: 0.03em;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media all and (max-width: 800px) {
+
+  .left.sidebar {
+    border-right: none;
+    border-bottom: 1px solid var(--arcadia-line);
+  }
+
+  .right.sidebar {
+    border-left: none;
+    border-top: 1px solid var(--arcadia-line);
+  }
+
+}
