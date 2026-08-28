@@ -39,29 +39,6 @@ title: Arcadia Terminal
     output.textContent += "\n"
   }
 
-  /*
-   * Adds a centered line based on the current terminal width.
-   * This keeps the visible text centered without changing
-   * the actual terminal container.
-   */
-  async function writeCentered(text = "", min = 20, max = 50) {
-    const width = 46
-    const padding = Math.max(0, Math.floor((width - text.length) / 2))
-
-    await writeLine(
-      " ".repeat(padding) + text,
-      min,
-      max
-    )
-  }
-
-  /*
-   * User/password lines are intentionally left-aligned.
-   */
-  async function writeUserLine(text = "", min = 20, max = 50) {
-    await writeLine(text, min, max)
-  }
-
   async function boot() {
 
     // ================================================
@@ -69,16 +46,19 @@ title: Arcadia Terminal
     // ================================================
 
     await writeLine(
-      "██████████████████████████████████████████"
+      "█████████████████████████████████████████████"
     )
 
-    await writeCentered("")
-    await writeCentered("A R C A D I A")
-    await writeCentered("INFORMATION INDEX")
-    await writeCentered("")
-    await writeCentered("SECURE TERMINAL v5.7.21")
-    await writeCentered("")
-    await writeCentered("----------------------------------------------")
+    // Only these three lines are centered
+    await writeLine("")
+    await writeLine("                 A R C A D I A")
+    await writeLine("              INFORMATION INDEX")
+    await writeLine("")
+    await writeLine("          SECURE TERMINAL v5.7.21")
+    await writeLine("")
+    await writeLine(
+      "----------------------------------------------"
+    )
 
     await sleep(800)
 
@@ -87,12 +67,11 @@ title: Arcadia Terminal
     // USER IDENTIFICATION
     // ================================================
 
-    await writeCentered("")
-    await writeCentered("USER IDENTIFICATION")
-    await writeCentered("")
+    await writeLine("")
+    await writeLine("USER IDENTIFICATION")
+    await writeLine("")
 
-    // User section intentionally left-aligned
-    await writeUserLine("USERNAME")
+    await writeLine("USERNAME")
 
     await sleep(250)
 
@@ -108,15 +87,13 @@ title: Arcadia Terminal
 
     await sleep(350)
 
-    await writeUserLine("PASSWORD")
+    await writeLine("PASSWORD")
 
     await sleep(250)
 
     await typeText("> ")
 
     const correctPassword = "**************"
-
-    // 5% chance of typing the password incorrectly
     const incorrectPassword = Math.random() < 0.05
 
     if (incorrectPassword) {
@@ -129,7 +106,6 @@ title: Arcadia Terminal
 
       await sleep(300)
 
-      // Erase incorrect password
       for (let i = 0; i < 12; i++) {
         output.textContent =
           output.textContent.slice(0, -1)
@@ -139,7 +115,6 @@ title: Arcadia Terminal
 
       await sleep(200)
 
-      // Type correct password
       await typeText(
         correctPassword,
         40,
@@ -163,7 +138,7 @@ title: Arcadia Terminal
 
     await sleep(500)
 
-    await writeCentered(
+    await writeLine(
       "----------------------------------------------"
     )
 
@@ -174,12 +149,8 @@ title: Arcadia Terminal
 
     await sleep(500)
 
-    await writeCentered("")
-
-    await writeCentered(
-      "VERIFYING CREDENTIALS..."
-    )
-
+    await writeLine("")
+    await writeLine("VERIFYING CREDENTIALS...")
     await sleep(500)
 
     const barLength = 32
@@ -206,21 +177,12 @@ title: Arcadia Terminal
 
     output.textContent += "\n"
 
-    await writeCentered("")
-
-    await writeCentered(
-      "IDENTITY CONFIRMED"
-    )
-
-    await writeCentered("")
-
-    await writeCentered(
-      "ACCESS LEVEL: ███████"
-    )
-
-    await writeCentered("")
-
-    await writeCentered(
+    await writeLine("")
+    await writeLine("IDENTITY CONFIRMED")
+    await writeLine("")
+    await writeLine("ACCESS LEVEL: ███████")
+    await writeLine("")
+    await writeLine(
       "----------------------------------------------"
     )
 
@@ -231,13 +193,9 @@ title: Arcadia Terminal
     // CONNECTING TO INDEX
     // ================================================
 
-    await writeCentered("")
+    await writeLine("")
+    await typeText("CONNECTING TO INDEX")
 
-    await writeCentered(
-      "CONNECTING TO INDEX"
-    )
-
-    // One second per dot
     await sleep(1000)
     await typeText(".")
 
@@ -247,9 +205,7 @@ title: Arcadia Terminal
     await sleep(1000)
     await typeText(".")
 
-    /*
-     * 3% chance of taking longer.
-     */
+    // 3% chance of taking longer
     if (Math.random() < 0.03) {
 
       await sleep(1000)
@@ -282,7 +238,7 @@ title: Arcadia Terminal
 
       await sleep(1000)
 
-      await writeCentered(
+      await writeLine(
         `[ OK ] ${system}`
       )
     }
@@ -292,18 +248,15 @@ title: Arcadia Terminal
     // ACCESS GRANTED
     // ================================================
 
-    await writeCentered("")
-
-    await writeCentered(
+    await writeLine("")
+    await writeLine(
       "----------------------------------------------"
     )
-
-    await writeCentered("")
-
+    await writeLine("")
     await sleep(500)
 
-    await writeCentered(
-      "ACCESS GRANTED."
+    await writeLine(
+      "          ACCESS GRANTED."
     )
 
     await sleep(1500)
@@ -321,7 +274,11 @@ title: Arcadia Terminal
 
     function handleEnter(event) {
       if (event.key === "Enter") {
-        window.removeEventListener("keydown", handleEnter)
+        window.removeEventListener(
+          "keydown",
+          handleEnter
+        )
+
         continueToHome()
       }
     }
@@ -368,7 +325,6 @@ title: Arcadia Terminal
     "Courier New",
     monospace;
 
-  /* Allow vertical scrolling when the terminal is taller than the screen */
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -434,16 +390,8 @@ title: Arcadia Terminal
 
   #arcadia-terminal {
     padding: 1rem;
-
-    /*
-     * Start at the top on phones so the full sequence
-     * has vertical room to grow.
-     */
     justify-content: flex-start;
 
-    /*
-     * Let the user scroll down to the final prompt.
-     */
     overflow-y: auto;
     overflow-x: hidden;
 
@@ -466,14 +414,9 @@ title: Arcadia Terminal
     max-width: 100%;
 
     margin-top: 1rem;
-
     padding: 0.75rem 0;
 
     font-size: 11px;
-
-    /*
-     * Make the tap target larger.
-     */
     min-height: 2.5rem;
   }
 }
