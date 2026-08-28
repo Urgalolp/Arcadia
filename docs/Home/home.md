@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: DATABASE
 ---
 
 <div class="terminal-welcome">

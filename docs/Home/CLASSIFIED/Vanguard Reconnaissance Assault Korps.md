@@ -2,4 +2,5 @@ Despite its name, the USA’s VRAK is less of a unit designed for reconnaissance
 
 Despite that, VRAK remained as one of the primary thorns in the side of independent agents, compensating in quantity of personnel what it lacks in quality of personnel, and retaining its versatility where other units of its kind fail to. It is perhaps the unit that prepares the most counter-measures when it comes to handling threats.
 ![[VRAK.jpg]]
+
 #organization 

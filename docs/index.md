@@ -274,12 +274,12 @@ title: Arcadia Terminal
     // ================================================
 
     const systems = [
+      "SYSTEM",
       "DATABASE",
-      "ARCHIVE",
-      "CARTOGRAPHY",
-      "PERSONNEL",
       "CLASSIFIED",
-      "HISTORICAL RECORDS"
+      "HISTORICAL RECORDS",
+      "LOGISTICS",
+      "PERSONNEL"
     ]
 
     for (const system of systems) {

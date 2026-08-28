@@ -4,4 +4,5 @@ Those within the underworld agree that Germany is responsible for the creation, 
 
 Amongst all spec-ops units, Kriegs are the only ones known to be used to handle threats and targets with great prejudice, regardless of the cost or sacrifice necessary. They are, effectively, a sledgehammer.
 ![[KW.jpg]]
+
 #organization 

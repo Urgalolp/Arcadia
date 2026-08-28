@@ -6,4 +6,5 @@ Though they have a noble objective, the OEA is not a widespread organization, an
 
 With the advancement of technology, the drop in widespread magical knowledge, and the dwindling connection that the world has with other planes, the OEA has been dropping in importance and numbers consistently. In modern times, it often acts more as a counter-terrorism force than much else.
 ![[OEA.jpg]]
+
 #organization
