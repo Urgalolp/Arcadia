@@ -349,33 +349,32 @@ title: Arcadia Terminal
   inset: 0;
   z-index: 999999;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   background: #000;
   color: #fff;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
 
   font-family:
     "IBM Plex Mono",
     "Courier New",
     monospace;
 
-  overflow: auto;
-  box-sizing: border-box;
+  overflow: hidden;
 }
 
-/* This controls the width of the terminal itself */
-#terminal-output,
-#terminal-input {
-  width: min(388px, calc(100vw - 8rem));
-}
-
-/* The actual terminal text */
 #terminal-output {
+  width: min(900px, 100%);
+
   margin: 0;
 
   white-space: pre-wrap;
+  overflow-wrap: anywhere;
 
   font-family:
     "IBM Plex Mono",
@@ -386,14 +385,10 @@ title: Arcadia Terminal
   line-height: 1.45;
 }
 
-/* Center the whole terminal block */
-#arcadia-terminal {
-  flex-direction: column;
-}
-
-/* Enter prompt */
 #terminal-input {
   display: none;
+
+  width: min(900px, 100%);
 
   margin-top: 2rem;
 
@@ -403,5 +398,69 @@ title: Arcadia Terminal
     monospace;
 
   font-size: 14px;
+
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media screen and (max-width: 600px) {
+
+  #arcadia-terminal {
+    padding: 1rem;
+    justify-content: flex-start;
+  }
+
+  #terminal-output {
+    width: 100%;
+
+    font-size: 11px;
+    line-height: 1.35;
+
+    /*
+     * Prevent long terminal lines from forcing
+     * horizontal scrolling.
+     */
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  #terminal-input {
+    width: 100%;
+
+    margin-top: 1rem;
+
+    font-size: 11px;
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
+@media screen and (max-width: 380px) {
+
+  #arcadia-terminal {
+    padding: 0.75rem;
+  }
+
+  #terminal-output {
+    font-size: 9px;
+    line-height: 1.3;
+  }
+
+  #terminal-input {
+    font-size: 9px;
+  }
 }
 </style>
