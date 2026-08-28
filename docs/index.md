@@ -39,6 +39,29 @@ title: Arcadia Terminal
     output.textContent += "\n"
   }
 
+  /*
+   * Adds a centered line based on the current terminal width.
+   * This keeps the visible text centered without changing
+   * the actual terminal container.
+   */
+  async function writeCentered(text = "", min = 20, max = 50) {
+    const width = 46
+    const padding = Math.max(0, Math.floor((width - text.length) / 2))
+
+    await writeLine(
+      " ".repeat(padding) + text,
+      min,
+      max
+    )
+  }
+
+  /*
+   * User/password lines are intentionally left-aligned.
+   */
+  async function writeUserLine(text = "", min = 20, max = 50) {
+    await writeLine(text, min, max)
+  }
+
   async function boot() {
 
     // ================================================
@@ -49,27 +72,13 @@ title: Arcadia Terminal
       "█████████████████████████████████████████████"
     )
 
-    await writeLine("")
-
-    await writeLine(
-      "                 A R C A D I A"
-    )
-
-    await writeLine(
-      "              INFORMATION INDEX"
-    )
-
-    await writeLine("")
-
-    await writeLine(
-      "          SECURE TERMINAL v5.7.21"
-    )
-
-    await writeLine("")
-
-    await writeLine(
-      "----------------------------------------------"
-    )
+    await writeCentered("")
+    await writeCentered("A R C A D I A")
+    await writeCentered("INFORMATION INDEX")
+    await writeCentered("")
+    await writeCentered("SECURE TERMINAL v5.7.21")
+    await writeCentered("")
+    await writeCentered("----------------------------------------------")
 
     await sleep(800)
 
@@ -78,14 +87,12 @@ title: Arcadia Terminal
     // USER IDENTIFICATION
     // ================================================
 
-    await writeLine("")
+    await writeCentered("")
+    await writeCentered("USER IDENTIFICATION")
+    await writeCentered("")
 
-    await writeLine("USER IDENTIFICATION")
-
-    await writeLine("")
-
-    // Username
-    await writeLine("USERNAME")
+    // User section intentionally left-aligned
+    await writeUserLine("USERNAME")
 
     await sleep(250)
 
@@ -101,9 +108,7 @@ title: Arcadia Terminal
 
     await sleep(350)
 
-
-    // Password
-    await writeLine("PASSWORD")
+    await writeUserLine("PASSWORD")
 
     await sleep(250)
 
@@ -116,7 +121,6 @@ title: Arcadia Terminal
 
     if (incorrectPassword) {
 
-      // Type incorrect password
       await typeText(
         "************",
         40,
@@ -127,7 +131,6 @@ title: Arcadia Terminal
 
       // Erase incorrect password
       for (let i = 0; i < 12; i++) {
-
         output.textContent =
           output.textContent.slice(0, -1)
 
@@ -145,12 +148,10 @@ title: Arcadia Terminal
 
       output.textContent += "\n"
 
-      // Pause after correcting password
       await sleep(1000)
 
     } else {
 
-      // Type correct password
       await typeText(
         correctPassword,
         40,
@@ -162,7 +163,7 @@ title: Arcadia Terminal
 
     await sleep(500)
 
-    await writeLine(
+    await writeCentered(
       "----------------------------------------------"
     )
 
@@ -173,9 +174,9 @@ title: Arcadia Terminal
 
     await sleep(500)
 
-    await writeLine("")
+    await writeCentered("")
 
-    await writeLine(
+    await writeCentered(
       "VERIFYING CREDENTIALS..."
     )
 
@@ -185,7 +186,8 @@ title: Arcadia Terminal
     const barDuration = 3000
     const barInterval = barDuration / barLength
 
-    // Create empty bar
+    const barStart = output.textContent.length
+
     output.textContent +=
       "[" + " ".repeat(barLength) + "]"
 
@@ -197,35 +199,31 @@ title: Arcadia Terminal
         "█".repeat(i) +
         " ".repeat(barLength - i)
 
-      // Replace the existing bar
       output.textContent =
-        output.textContent.replace(
-          /\[[█ ]*\]$/,
-          `[${bar}]`
-        )
+        output.textContent.slice(0, barStart) +
+        `[${bar}]`
     }
 
     output.textContent += "\n"
 
-    await writeLine("")
+    await writeCentered("")
 
-    await writeLine(
+    await writeCentered(
       "IDENTITY CONFIRMED"
     )
 
-    await writeLine("")
+    await writeCentered("")
 
-    await writeLine(
+    await writeCentered(
       "ACCESS LEVEL: ███████"
     )
 
-    await writeLine("")
+    await writeCentered("")
 
-    await writeLine(
+    await writeCentered(
       "----------------------------------------------"
     )
 
-    // Pause before connecting
     await sleep(2000)
 
 
@@ -233,9 +231,9 @@ title: Arcadia Terminal
     // CONNECTING TO INDEX
     // ================================================
 
-    await writeLine("")
+    await writeCentered("")
 
-    await typeText(
+    await writeCentered(
       "CONNECTING TO INDEX"
     )
 
@@ -249,20 +247,18 @@ title: Arcadia Terminal
     await sleep(1000)
     await typeText(".")
 
-
-    // 3% chance of taking longer to locate the index
+    /*
+     * 3% chance of taking longer.
+     */
     if (Math.random() < 0.03) {
 
       await sleep(1000)
-
       await typeText("...")
 
       await sleep(1000)
-
       await typeText("...")
 
       await sleep(1000)
-
       await typeText("...")
     }
 
@@ -284,10 +280,9 @@ title: Arcadia Terminal
 
     for (const system of systems) {
 
-      // Two seconds per system
       await sleep(1000)
 
-      await writeLine(
+      await writeCentered(
         `[ OK ] ${system}`
       )
     }
@@ -297,32 +292,33 @@ title: Arcadia Terminal
     // ACCESS GRANTED
     // ================================================
 
-    await writeLine("")
+    await writeCentered("")
 
-    await writeLine(
+    await writeCentered(
       "----------------------------------------------"
     )
 
-    await writeLine("")
+    await writeCentered("")
 
     await sleep(500)
 
-    await writeLine(
-      "          ACCESS GRANTED."
+    await writeCentered(
+      "ACCESS GRANTED."
     )
 
     await sleep(1500)
 
 
     // ================================================
-    // WAIT FOR ENTER
+    // WAIT FOR ENTER / CLICK
     // ================================================
+
+    terminalInput.style.display = "block"
 
     function continueToHome() {
       window.location.href = "./DATABASE/"
     }
 
-    // Desktop: Enter key
     function handleEnter(event) {
       if (event.key === "Enter") {
         window.removeEventListener("keydown", handleEnter)
@@ -330,13 +326,20 @@ title: Arcadia Terminal
       }
     }
 
-    window.addEventListener("keydown", handleEnter)
+    window.addEventListener(
+      "keydown",
+      handleEnter
+    )
 
-    // Mobile / mouse: tap or click the prompt
-    terminalInput.addEventListener("click", continueToHome)
+    terminalInput.addEventListener(
+      "click",
+      continueToHome
+    )
 
-    // Mobile touch
-    terminalInput.addEventListener("touchend", continueToHome)
+    terminalInput.addEventListener(
+      "pointerup",
+      continueToHome
+    )
   }
 
   boot()
@@ -365,11 +368,14 @@ title: Arcadia Terminal
     "Courier New",
     monospace;
 
-  overflow: hidden;
+  /* Allow vertical scrolling when the terminal is taller than the screen */
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #terminal-output {
-  width: min(380px, 100%);
+  width: 380px;
+  max-width: calc(100vw - 2rem);
 
   margin: 0;
 
@@ -383,12 +389,15 @@ title: Arcadia Terminal
 
   font-size: 14px;
   line-height: 1.45;
+
+  box-sizing: border-box;
 }
 
 #terminal-input {
   display: none;
 
-  width: min(900px, 100%);
+  width: 380px;
+  max-width: calc(100vw - 2rem);
 
   margin-top: 2rem;
 
@@ -399,14 +408,18 @@ title: Arcadia Terminal
 
   font-size: 14px;
 
-  animation: blink 1s steps(1) infinite;
-
   cursor: pointer;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+
+  box-sizing: border-box;
 }
 
-@keyframes blink {
+#terminal-cursor {
+  animation: cursor-blink 1s steps(1) infinite;
+}
+
+@keyframes cursor-blink {
   50% {
     opacity: 0;
   }
@@ -421,29 +434,47 @@ title: Arcadia Terminal
 
   #arcadia-terminal {
     padding: 1rem;
+
+    /*
+     * Start at the top on phones so the full sequence
+     * has vertical room to grow.
+     */
     justify-content: flex-start;
+
+    /*
+     * Let the user scroll down to the final prompt.
+     */
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    min-height: 100dvh;
   }
 
   #terminal-output {
     width: 100%;
+    max-width: 100%;
 
     font-size: 11px;
     line-height: 1.35;
 
-    /*
-     * Prevent long terminal lines from forcing
-     * horizontal scrolling.
-     */
     white-space: pre-wrap;
     overflow-wrap: anywhere;
   }
 
   #terminal-input {
     width: 100%;
+    max-width: 100%;
 
     margin-top: 1rem;
 
+    padding: 0.75rem 0;
+
     font-size: 11px;
+
+    /*
+     * Make the tap target larger.
+     */
+    min-height: 2.5rem;
   }
 }
 
