@@ -46,7 +46,7 @@ title: Arcadia Terminal
     // ================================================
 
     await writeLine(
-      "██████████████████████████████████████████████"
+      "█████████████████████████████████████████████"
     )
 
     await writeLine("")
@@ -369,7 +369,7 @@ title: Arcadia Terminal
 }
 
 #terminal-output {
-  width: min(390px, 100%);
+  width: min(380px, 100%);
 
   margin: 0;
 
@@ -452,7 +452,7 @@ title: Arcadia Terminal
    VERY SMALL PHONES
    ========================================================= */
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 380px) {
 
   #arcadia-terminal {
     padding: 0.75rem;
