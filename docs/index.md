@@ -452,7 +452,7 @@ title: Arcadia Terminal
    VERY SMALL PHONES
    ========================================================= */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
 
   #arcadia-terminal {
     padding: 0.75rem;
