@@ -1,0 +1,3 @@
+As an action, you can spray the contents of this vial onto a creature within 10 feet of you. Make a ranged attack against a creature or object, treating the pepper spray as an improvised weapon. On a hit, the target takes 1 acid damage and is blinded. A creature can end this blindness by using its action to make a DC 10 Constitution saving throw. Constructs are immune to the blindness caused by pepper spray.
+
+#gear

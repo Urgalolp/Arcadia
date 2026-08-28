@@ -1,0 +1,3 @@
+This simple electronic device outputs a large amount of electromagnetic white noise to increase signal interference in the surrounding area, effectively jamming wireless communications. A signal jammer has 10 charges. As a bonus action or action, you can expend one charge to all incoming and outgoing wireless communication, including phones, radio, Wi-Fi and similar within 100 feet from the signal jammer for 5 minutes. The signal jammer can be configured to exclude specific frequencies with a DC 15 Intelligence (Engineering Kit) check.
+
+#gear

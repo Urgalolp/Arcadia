@@ -1,0 +1,3 @@
+Though designed for signaling, flares can be used as impromptu weapons. As an action, you can shoot the flare at a creature or object within 60 feet of you, treating the flare as an improvised ranged weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.
+
+#gear

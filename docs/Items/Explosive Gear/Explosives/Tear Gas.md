@@ -1,0 +1,5 @@
+Military and police forces use these weapons to disperse crowds and smoke out hostage takers. When activated, this explosive emits a cloud of tear gas that creates a lightly obscured area in a 20-foot radius. It disperses after 1 minute, though a wind of moderate or greater speed (at least 10 miles per hour) disperses it. When the cloud appears, any creature inside its area is subjected to tear gas poison. A creature is also subjected to tear gas poison when it enters the cloud for the first time on a turn or ends its turn there.
+### Tear Gas (Inhaled)
+A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or be blinded and incapacitated for 1 minute.  At the end of each of its turns, the creature can make another Constitution saving throw. On a success, the effect ends on the target.
+
+#explosive 

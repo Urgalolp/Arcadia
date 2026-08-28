@@ -1,3 +1,0 @@
-An [[Advanced]] grenade. When it detonates, it discharges a highly-corrosive acid around itself. A corrosion grenade deals 4d6 acid damage. A creature that fails the saving throw must make a second saving throw at the start of their next turn, as the grenade affects them again for 1 less damage die. This repeats until the creature succeeds their save, or there are no more damage dice. Non-magical equipment caught in the blast, whether worn/wielded or not, suffer a -1 to its provided effect(s) until repaired. Each grenade costs 35000 credits
-
-#grenade #advanced

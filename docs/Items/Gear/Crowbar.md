@@ -1,0 +1,1 @@
+Using a crowbar grants advantage to Strength checks where the crowbar’s leverage can be applied.

@@ -1,0 +1,5 @@
+Plastic explosive is a soft and hand-moldable solid form of explosive material. Plastic explosives are especially suited for explosive demolition of obstacles and fortifications by engineers, combat engineers and criminals. When activated, each creature within 10 feet of the explosive must make a Dexterity saving throw, taking 4d6 bludgeoning damage on a failed save, or half as much damage on a successful one. It deals double damage against objects and structures.
+
+You can combine units of plastic explosive so they explode at the same time. Each additional pound of plastic explosive increases the damage by 2d6 (to a maximum of 14d6) and the burst radius by 5 feet (to a maximum of 30 feet). Additionally, when planting plastic explosive, you can choose to change the burst area to a cone-shaped explosion (you must determine the area affected by the explosive when you plant it).
+
+#explosive 

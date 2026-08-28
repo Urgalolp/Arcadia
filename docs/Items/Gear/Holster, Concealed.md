@@ -1,0 +1,3 @@
+A concealed carry holster is designed to help keep a weapon out of sight. In most cases, this is a shoulder holster (the weapon fits under the wearer’s armpit, presumably beneath a jacket), but some weapons can be carried in waistband holsters (often placed inside the wearer’s waistband against his or her back). Smaller weapons can also be carried in ankle or boot holsters. Concealed carry holsters are only available for one-handed weapons. While a weapon is in a concealed carry holster, you have advantage on Dexterity (Sleight of Hand) checks to conceal it.
+
+#gear

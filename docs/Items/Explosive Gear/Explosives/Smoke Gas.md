@@ -1,0 +1,3 @@
+Smoke explosives are used as ground-to-ground or ground-to-air signaling devices, target or landing zone marking devices, and to create a smoke-screen for concealment. When buying a smoke explosive you can also select the color of the smoke. When activated, it emits a cloud of smoke that creates a heavily obscured area in a 20-foot radius. It disperses after 1 minute, though a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+
+#explosive 
