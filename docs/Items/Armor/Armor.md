@@ -1,3 +1,5 @@
+Body armor comes in a variety of shapes and sizes, providing varying degrees of coverage and varying heaviness of materials. 
+
 | Armor                  |  Cost  | Armor Class (AC)          | Strength | Stealth      | Perception DC | Weight |
 | :--------------------- | :----: | :------------------------ | :------- | :----------- | :-----------: | :----: |
 | *Light Armor*          |        |                           |          |              |               |        |
@@ -23,5 +25,3 @@
 Several forms of modern armor are designed such that they can be concealed if necessary. Unlike small objects, there is very little a character can do in the moment to hide armor they are wearing. As such, the DC to notice worn armor is static and unaffected by the ability scores of whoever is wearing the armor.
 
 Noticing concealed armor is done with a Wisdom (Perception) check. The DC of this check is dependent on the type of armor, and is shown in the "Perception DC" column of the armor table. If an armor type does not have a listed DC, it is always considered noticed by anyone seeing the character wearing it.
-## Unarmored
-If you have a class feature, feat, racial ability, or trait that grants you unarmored defense, or are under a spell that provides unarmored defense to you, your AC is 10 + your dexterity modifier + your proficiency bonus. You also have damage reduction equal to any additional bonus to AC you would have from the class feature, feat, racial ability, trait, or spell in question. Any effect that would increase your AC, such as Half-Cover, or any magical effect that would affect your AC, such as Slow or Shield, still function as normal.

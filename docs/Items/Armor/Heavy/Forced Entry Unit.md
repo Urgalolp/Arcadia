@@ -1,0 +1,3 @@
+The most powerful protection available is built into this suit, which consists of a heavy torso jacket with ceramic plates over the chest and back, neck and groin guards, arm protection, and a helmet. Heavy and cumbersome, this armor is generally only donned by tactical officers heading into a dangerous assault. While wearing this armor, your AC is 18, and you have disadvantage on stealth checks. It has a weight of 20 lbs, costs 1500 credits, and requires a strength of 15 to be worn.
+
+#heavy_armor 
