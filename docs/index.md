@@ -49,13 +49,24 @@ title: Arcadia Terminal
       "█████████████████████████████████████████████"
     )
 
-    // Only these three lines are centered
     await writeLine("")
-    await writeLine("                 A R C A D I A")
-    await writeLine("              INFORMATION INDEX")
+
+    await writeLine(
+      "                 A R C A D I A"
+    )
+
+    await writeLine(
+      "              INFORMATION INDEX"
+    )
+
     await writeLine("")
-    await writeLine("          SECURE TERMINAL v5.7.21")
+
+    await writeLine(
+      "          SECURE TERMINAL v5.7.21"
+    )
+
     await writeLine("")
+
     await writeLine(
       "----------------------------------------------"
     )
@@ -68,9 +79,12 @@ title: Arcadia Terminal
     // ================================================
 
     await writeLine("")
+
     await writeLine("USER IDENTIFICATION")
+
     await writeLine("")
 
+    // Username
     await writeLine("USERNAME")
 
     await sleep(250)
@@ -87,6 +101,8 @@ title: Arcadia Terminal
 
     await sleep(350)
 
+
+    // Password
     await writeLine("PASSWORD")
 
     await sleep(250)
@@ -94,10 +110,13 @@ title: Arcadia Terminal
     await typeText("> ")
 
     const correctPassword = "**************"
+
+    // 5% chance of typing the password incorrectly
     const incorrectPassword = Math.random() < 0.05
 
     if (incorrectPassword) {
 
+      // Type incorrect password
       await typeText(
         "************",
         40,
@@ -106,7 +125,9 @@ title: Arcadia Terminal
 
       await sleep(300)
 
+      // Erase incorrect password
       for (let i = 0; i < 12; i++) {
+
         output.textContent =
           output.textContent.slice(0, -1)
 
@@ -115,6 +136,7 @@ title: Arcadia Terminal
 
       await sleep(200)
 
+      // Type correct password
       await typeText(
         correctPassword,
         40,
@@ -123,10 +145,12 @@ title: Arcadia Terminal
 
       output.textContent += "\n"
 
+      // Pause after correcting password
       await sleep(1000)
 
     } else {
 
+      // Type correct password
       await typeText(
         correctPassword,
         40,
@@ -150,15 +174,18 @@ title: Arcadia Terminal
     await sleep(500)
 
     await writeLine("")
-    await writeLine("VERIFYING CREDENTIALS...")
+
+    await writeLine(
+      "VERIFYING CREDENTIALS..."
+    )
+
     await sleep(500)
 
     const barLength = 32
     const barDuration = 3000
     const barInterval = barDuration / barLength
 
-    const barStart = output.textContent.length
-
+    // Create empty bar
     output.textContent +=
       "[" + " ".repeat(barLength) + "]"
 
@@ -170,22 +197,35 @@ title: Arcadia Terminal
         "█".repeat(i) +
         " ".repeat(barLength - i)
 
+      // Replace the existing bar
       output.textContent =
-        output.textContent.slice(0, barStart) +
-        `[${bar}]`
+        output.textContent.replace(
+          /\[[█ ]*\]$/,
+          `[${bar}]`
+        )
     }
 
     output.textContent += "\n"
 
     await writeLine("")
-    await writeLine("IDENTITY CONFIRMED")
+
+    await writeLine(
+      "IDENTITY CONFIRMED"
+    )
+
     await writeLine("")
-    await writeLine("ACCESS LEVEL: ███████")
+
+    await writeLine(
+      "ACCESS LEVEL: ███████"
+    )
+
     await writeLine("")
+
     await writeLine(
       "----------------------------------------------"
     )
 
+    // Pause before connecting
     await sleep(2000)
 
 
@@ -194,8 +234,12 @@ title: Arcadia Terminal
     // ================================================
 
     await writeLine("")
-    await typeText("CONNECTING TO INDEX")
 
+    await typeText(
+      "CONNECTING TO INDEX"
+    )
+
+    // One second per dot
     await sleep(1000)
     await typeText(".")
 
@@ -205,16 +249,20 @@ title: Arcadia Terminal
     await sleep(1000)
     await typeText(".")
 
-    // 3% chance of taking longer
+
+    // 3% chance of taking longer to locate the index
     if (Math.random() < 0.03) {
 
       await sleep(1000)
+
       await typeText("...")
 
       await sleep(1000)
+
       await typeText("...")
 
       await sleep(1000)
+
       await typeText("...")
     }
 
@@ -236,6 +284,7 @@ title: Arcadia Terminal
 
     for (const system of systems) {
 
+      // Two seconds per system
       await sleep(1000)
 
       await writeLine(
@@ -249,10 +298,13 @@ title: Arcadia Terminal
     // ================================================
 
     await writeLine("")
+
     await writeLine(
       "----------------------------------------------"
     )
+
     await writeLine("")
+
     await sleep(500)
 
     await writeLine(
@@ -263,40 +315,28 @@ title: Arcadia Terminal
 
 
     // ================================================
-    // WAIT FOR ENTER / CLICK
+    // WAIT FOR ENTER
     // ================================================
-
-    terminalInput.style.display = "block"
 
     function continueToHome() {
       window.location.href = "./DATABASE/"
     }
 
+    // Desktop: Enter key
     function handleEnter(event) {
       if (event.key === "Enter") {
-        window.removeEventListener(
-          "keydown",
-          handleEnter
-        )
-
+        window.removeEventListener("keydown", handleEnter)
         continueToHome()
       }
     }
 
-    window.addEventListener(
-      "keydown",
-      handleEnter
-    )
+    window.addEventListener("keydown", handleEnter)
 
-    terminalInput.addEventListener(
-      "click",
-      continueToHome
-    )
+    // Mobile / mouse: tap or click the prompt
+    terminalInput.addEventListener("click", continueToHome)
 
-    terminalInput.addEventListener(
-      "pointerup",
-      continueToHome
-    )
+    // Mobile touch
+    terminalInput.addEventListener("pointerup", continueToHome)
   }
 
   boot()
@@ -325,6 +365,7 @@ title: Arcadia Terminal
     "Courier New",
     monospace;
 
+  /* Allow vertical scrolling when the terminal is taller than the screen */
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -390,8 +431,16 @@ title: Arcadia Terminal
 
   #arcadia-terminal {
     padding: 1rem;
+
+    /*
+     * Start at the top on phones so the full sequence
+     * has vertical room to grow.
+     */
     justify-content: flex-start;
 
+    /*
+     * Let the user scroll down to the final prompt.
+     */
     overflow-y: auto;
     overflow-x: hidden;
 
@@ -414,9 +463,14 @@ title: Arcadia Terminal
     max-width: 100%;
 
     margin-top: 1rem;
+
     padding: 0.75rem 0;
 
     font-size: 11px;
+
+    /*
+     * Make the tap target larger.
+     */
     min-height: 2.5rem;
   }
 }
