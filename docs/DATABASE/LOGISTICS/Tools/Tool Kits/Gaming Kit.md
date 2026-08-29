@@ -1,0 +1,14 @@
+Proficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.
+
+**Components.** A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.
+
+**History.** Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.
+
+**Insight.** Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.
+
+**Sleight of Hand.** Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.
+
+Some activities can be done with more ease when using this tool, and some can only be done with this tool, such as the exceptions (and their DCs) below.
+
+* Catch a player cheating (15)
+* Gain insight into an opponent's personality (15)
