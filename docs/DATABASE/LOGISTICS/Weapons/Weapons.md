@@ -1,0 +1,1 @@
+Information regarding weapons and armaments catalogued by the Arcadia Information Index. These files contain records on firearms, melee weapons, special weapons, and other arms, including their capabilities, characteristics, and relevant considerations for their use.

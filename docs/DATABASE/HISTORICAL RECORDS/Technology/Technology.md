@@ -1,0 +1,1 @@
+Information regarding technological developments, systems, and devices catalogued by the Arcadia Information Index. These files document notable technologies, their functions, applications, and other relevant technical information.
