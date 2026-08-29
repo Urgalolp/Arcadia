@@ -332,12 +332,8 @@ title: Arcadia Terminal
 
     window.addEventListener("keydown", handleEnter)
 
-    // Mobile / mouse: tap or click the prompt
-    terminalInput.addEventListener("click", continueToHome)
-
-    // Mobile touch
+    // Mouse / touch / stylus
     terminalInput.addEventListener("pointerup", continueToHome)
-  }
 
   boot()
 })()
