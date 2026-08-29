@@ -1,0 +1,11 @@
+The advances of Azrakul, Zorakheth, and Ozymor upon the area now known as Europe. The three grand liches marched across a vast quantity of land, bringing with them an army composed of undead creatures and contracted devils, Under the influence of the liches, the dreadful army laid waste upon the land and brought many innocent lives to an end, utilizing their lifeless husks to bolster its forces.
+
+To this day, the exact aims of the three liches are unknown, but it is believed they sought, among other things, world domination, the creation of a country-sized necropolis capable of warding off divine influences, and the complete erradication of dragons, regardless of their alignment. Most historians and scholars agree on the third point purely due to Azrakul’s and Ozymor’s particular disdain for dragons, and the fact that The Incursion was directly responsible for the severe decline in the dragon population of today.
+
+Much of the magic used during this period by the dreadful army was a direct result of a subversion of fae origins, the unholy and unnatural collusion of a hag’s covenant with undeath through the means of forced fusion and soul fracturing. It is still unclear how precisely such a manner of action has been possible, with many pointing to divine interference.
+
+It was during this period that many lineages of heroes perished, many pantheons experienced such a large death of followers that their powers diminished, and many of the artifacts of old, as well as the knowledge of many myths and legends, were lost.
+
+The Incursion only came to an end after Zorakheth’s betrayal of their covenant, though such a betrayal only weakened the remaining two grand liches, and their ultimate demise was only brought through the bloodshed of countless races and heroes in a brutal war of attrition. Despite this, many agree that without such betrayal, The Incursion would have achieved all of its objectives with little trouble.
+
+It began in 621, and ended in 724. Zorakheth’s betrayal occurred in 700.
