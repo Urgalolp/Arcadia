@@ -1,13 +1,12 @@
-> ## Economy Coupe
 >*Huge land vehicle (15 ft. by 5 ft.)*
 > ___
-> - **Creature Capacity** 1 crew, 4 passengers
-> - **Cargo Capacity** 250 lb.
-> - **Travel Pace** 100 miles per hour (2400 miles per day)
+> - **Creature Capacity** 1 crew, 1 passenger
+> - **Cargo Capacity** 150 lb.
+> - **Travel Pace** 150 miles per hour (3600 miles per day)
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->| 20 (+5) | 9 (-1) | 17 (+3) | 0 | 0 | 0 |
+>| 22 (+6) | 12 (+1) | 15 (+2) | 0 | 0 | 0 |
 >___
 > - **Damage Immunities** poison, psychic
 > - **Condition Immunities**  blinded, charmed, deafened,
@@ -21,7 +20,7 @@ poisoned, prone, stunned, unconscious
 >
 > ### Hull
 > **Armor Class** 19
-> </br>**Hit Points** 100 (damage threshold 10)
+> </br>**Hit Points** 80 (damage threshold 10)
 >
 > ### Control: Steering Wheel
 > **Armor Class** 17
@@ -30,6 +29,6 @@ poisoned, prone, stunned, unconscious
 > Move up to the speed of one of the coupe's movement components, with up to three 45-degree turns. If the steering wheel is destroyed, the coupe can't turn. 
 >
 > ### Movement: Engine
-> **Armor Class** 17
+> **Armor Class** 16
 > </br>**Hit Points** 50
-> </br>**Speed (land)** 1000 ft. (requires at least 1 crew)
+> </br>**Speed (land)** 1500 ft. (requires at least 1 crew)
