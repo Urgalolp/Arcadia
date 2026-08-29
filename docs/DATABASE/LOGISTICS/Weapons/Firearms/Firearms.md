@@ -35,3 +35,5 @@
 | Punt Gun                                        | $1,500 | 2d12 piercing    | 7 lb.  | Ammunition, reload (1 internal), mounted (19),</br>two-handed, special                                     |
 | Short Shotgun                                   |  $650  | 2d8 piercing     | 4 lb.  | Ammunition (range 20/60), reload (8 internal), spread,</br>versatile (2d10)                                |
 | Submachine Gun                                  | $1,200 | 2d6 piercing     | 6 lb.  | Ammunition (range 80/320), reload (40 box), a-fire,</br>burst fire, two-handed                             |
+
+Firearms and other ranged weapons designed to deliver force or projectiles over a distance. These files contain records on weapon types, ammunition requirements, effective range, handling, firing capabilities, and other characteristics relevant to their use.

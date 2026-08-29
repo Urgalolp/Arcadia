@@ -8,4 +8,5 @@
 | Trip Wire         | $20  | 1/2 lb. |
 | Wire (50 feet)    | $12  | 1/2 lb. |
 | Wired             | $30  | 1/2 lb. |
+
 When an explosive is planted, you can link a detonator to it as part of that action. Detonators are used to activate planted explosives.

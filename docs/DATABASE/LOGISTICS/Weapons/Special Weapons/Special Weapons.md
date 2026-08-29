@@ -1,0 +1,1 @@
+Weapons possessing unusual characteristics, functions, or properties that distinguish them from standard arms. These files document notable capabilities and considerations relevant to their use.

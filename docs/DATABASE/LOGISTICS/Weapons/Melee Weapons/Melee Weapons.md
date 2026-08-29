@@ -22,3 +22,5 @@
 | Machete                                        | $30  | 1d8 slashing                        | 3 lb.  | Finesse, light                       |
 | Sledgehammer                                   | $30  | 2d6 bludgeoning                     | 9 lb.  | Heavy, two-handed                    |
 | Sword Cane                                     | $70  | 1d8 slashing                        | 3 lb.  | Finesse, special, covert             |
+
+Weapons intended for close-quarters combat, ranging from simple improvised and concealable weapons to specialized and heavy melee arms. These files contain records on their damage, handling, properties, and other characteristics relevant to their use.
