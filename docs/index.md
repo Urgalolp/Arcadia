@@ -334,6 +334,7 @@ title: Arcadia Terminal
 
     // Mouse / touch / stylus
     terminalInput.addEventListener("pointerup", continueToHome)
+  }
 
   boot()
 })()
