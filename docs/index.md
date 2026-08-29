@@ -79,9 +79,7 @@ title: Arcadia Terminal
     // ================================================
 
     await writeLine("")
-
     await writeLine("USER IDENTIFICATION")
-
     await writeLine("")
 
     // Username
@@ -127,7 +125,6 @@ title: Arcadia Terminal
 
       // Erase incorrect password
       for (let i = 0; i < 12; i++) {
-
         output.textContent =
           output.textContent.slice(0, -1)
 
@@ -186,9 +183,12 @@ title: Arcadia Terminal
     const barInterval = barDuration / barLength
 
     // Create empty bar
+    const barPosition = output.textContent.length
+
     output.textContent +=
       "[" + " ".repeat(barLength) + "]"
 
+    // Fill progress bar over 3 seconds
     for (let i = 1; i <= barLength; i++) {
 
       await sleep(barInterval)
@@ -197,12 +197,9 @@ title: Arcadia Terminal
         "█".repeat(i) +
         " ".repeat(barLength - i)
 
-      // Replace the existing bar
       output.textContent =
-        output.textContent.replace(
-          /\[[█ ]*\]$/,
-          `[${bar}]`
-        )
+        output.textContent.slice(0, barPosition) +
+        `[${bar}]`
     }
 
     output.textContent += "\n"
@@ -249,20 +246,16 @@ title: Arcadia Terminal
     await sleep(1000)
     await typeText(".")
 
-
-    // 3% chance of taking longer to locate the index
+    // 3% chance of taking longer
     if (Math.random() < 0.03) {
 
       await sleep(1000)
-
       await typeText("...")
 
       await sleep(1000)
-
       await typeText("...")
 
       await sleep(1000)
-
       await typeText("...")
     }
 
@@ -284,7 +277,6 @@ title: Arcadia Terminal
 
     for (const system of systems) {
 
-      // Two seconds per system
       await sleep(1000)
 
       await writeLine(
@@ -315,25 +307,50 @@ title: Arcadia Terminal
 
 
     // ================================================
-    // WAIT FOR ENTER
+    // WAIT FOR ENTER / CLICK
     // ================================================
 
+    terminalInput.style.display = "block"
+
+    // Scroll prompt into view on smaller screens
+    terminalInput.scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    })
+
+    let continued = false
+
     function continueToHome() {
+
+      if (continued) return
+
+      continued = true
+
+      window.removeEventListener(
+        "keydown",
+        handleKeyPress
+      )
+
       window.location.href = "./DATABASE/"
     }
 
-    // Desktop: Enter key
-    function handleEnter(event) {
-      if (event.key === "Enter") {
-        window.removeEventListener("keydown", handleEnter)
+    // Desktop: allow Enter or any key
+    function handleKeyPress(event) {
+      if (event.key) {
         continueToHome()
       }
     }
 
-    window.addEventListener("keydown", handleEnter)
+    window.addEventListener(
+      "keydown",
+      handleKeyPress
+    )
 
-    // Mouse / touch / stylus
-    terminalInput.addEventListener("pointerup", continueToHome)
+    // Mobile / mouse / stylus
+    terminalInput.addEventListener(
+      "pointerup",
+      continueToHome
+    )
   }
 
   boot()
@@ -362,7 +379,6 @@ title: Arcadia Terminal
     "Courier New",
     monospace;
 
-  /* Allow vertical scrolling when the terminal is taller than the screen */
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -394,6 +410,7 @@ title: Arcadia Terminal
   max-width: calc(100vw - 2rem);
 
   margin-top: 2rem;
+  padding: 0.5rem 0;
 
   font-family:
     "IBM Plex Mono",
@@ -407,11 +424,29 @@ title: Arcadia Terminal
   -webkit-tap-highlight-color: transparent;
 
   box-sizing: border-box;
+
+  /*
+   * The whole prompt blinks after the terminal finishes.
+   */
+  animation: prompt-blink 1.2s steps(1) infinite;
 }
 
 #terminal-cursor {
-  animation: cursor-blink 1s steps(1) infinite;
+  display: inline-block;
+  margin-left: 0.25rem;
+
+  animation: cursor-blink 0.8s steps(1) infinite;
 }
+
+/* Prompt blinking */
+
+@keyframes prompt-blink {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+/* Cursor blinking */
 
 @keyframes cursor-blink {
   50% {
@@ -429,15 +464,8 @@ title: Arcadia Terminal
   #arcadia-terminal {
     padding: 1rem;
 
-    /*
-     * Start at the top on phones so the full sequence
-     * has vertical room to grow.
-     */
     justify-content: flex-start;
 
-    /*
-     * Let the user scroll down to the final prompt.
-     */
     overflow-y: auto;
     overflow-x: hidden;
 
@@ -460,14 +488,10 @@ title: Arcadia Terminal
     max-width: 100%;
 
     margin-top: 1rem;
-
     padding: 0.75rem 0;
 
     font-size: 11px;
 
-    /*
-     * Make the tap target larger.
-     */
     min-height: 2.5rem;
   }
 }
