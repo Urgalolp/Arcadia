@@ -1,0 +1,3 @@
+As an action or a bonus action (the character’s choice), a character can set up the bipod so that the attached weapon counts as being braced (see the [[Braced]] property) until the weapon is moved. In addition, once a weapon with a bipod is braced, a character can use a bonus action to gain advantage on their next attack roll with that weapon.
+
+* **Restrictions.** Weapon must have the [[Two-Handed]] property, ranged weapons only.
