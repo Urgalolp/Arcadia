@@ -13,3 +13,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Temporarily repair a disabled device (10)
 * Repair an item in half the time (15)
 * Improvise a temporary item using scraps (20)
+
+#artisan_tool

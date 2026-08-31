@@ -30,3 +30,5 @@ poisoned, prone, stunned, unconscious
 > **Armor Class** 14
 > </br>**Hit Points** 50
 > </br>**Speed (land)** 400 ft. (requires at least 1 crew)
+
+#vehicle

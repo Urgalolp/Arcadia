@@ -20,3 +20,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Design a complex wooden structure (15)
 * Find a weak point in a wooden wall (15)
 * Pry apart a door (20)
+
+#artisan_tool

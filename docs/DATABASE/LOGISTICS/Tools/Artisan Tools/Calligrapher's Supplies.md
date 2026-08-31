@@ -14,3 +14,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Determine writer's state of mind (15)
 * Spot forged text (15)
 * Forge a signature (20)
+
+#artisan_tool

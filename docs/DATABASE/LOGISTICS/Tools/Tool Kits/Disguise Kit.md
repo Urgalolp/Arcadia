@@ -18,3 +18,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Cover injuries or distinguishing marks (10)
 * Spot a disguise being used by someone else (15)
 * Copy a humanoid's appearance (20)
+
+#tool_kits

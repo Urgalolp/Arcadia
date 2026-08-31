@@ -14,3 +14,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Duplicate a meal (10)
 * Spot poison or impurities in food (15)
 * Create a gourmet meal (15)
+
+#artisan_tool

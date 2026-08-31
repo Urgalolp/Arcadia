@@ -19,6 +19,9 @@
 | Tinker's tools          |  $90  | 10 lb.  |
 | Weaver's tools          |  $10  |  5 lb.  |
 | Woodcarver's tools      |  $10  |  5 lb.  |
+| Tailor's Tools          |  $30  |  5 lb.  |
+| Mechanical Tools        |  $75  | 12 lb.  |
+| Electrical Tools        |  $75  |  8 lb.  |
 | *Gaming Set*            |       |         |
 | Dice set                | $0.10 |    ―    |
 | Dragonchess set         |  $5   | 0.5 lb. |

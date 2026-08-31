@@ -14,3 +14,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Craft a small wooden figurine	(10)
 * Carve an intricate pattern in wood (15)
+
+#artisan_tool

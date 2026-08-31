@@ -14,3 +14,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Chisel a small hole in a stone wall (10)
 * Find a weak point in a stone wall (15)
+
+#artisan_tool

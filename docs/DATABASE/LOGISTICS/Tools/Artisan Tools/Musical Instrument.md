@@ -10,3 +10,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Identify a tune	(10)
 * Improvise a tune (20)
+
+#artisan_tool

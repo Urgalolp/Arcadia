@@ -12,3 +12,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Modify a leather item's appearance (10)
 * Determine a leather item's history (20)
+
+#artisan_tool

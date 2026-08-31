@@ -14,3 +14,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Determine a shoe's age and origin (10)
 * Find a hidden compartment in a boot heel (15)
+
+#artisan_tool

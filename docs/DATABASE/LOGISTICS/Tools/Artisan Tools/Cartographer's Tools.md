@@ -16,3 +16,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Estimate direction and distance to a landmark (15)
 * Discern that a map is fake (15)
 * Fill in a missing part of a map (20)
+
+#artisan_tool

@@ -13,3 +13,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Determine what a vessel once held (10)
 * Create a serviceable pot (15)
 * Find a weak point in a ceramic object (20)
+
+#artisan_tool

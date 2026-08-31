@@ -14,3 +14,5 @@ Despite disagreements regarding the events, individuals, and causes associated w
 The most notable example is the phenomenon now known as **splicing**. Artifacts demonstrating the effects or principles of splicing are commonplace in the modern age, yet no confirmed example predating The Null has been identified. Its apparent emergence during the missing period has led many historians to regard the phenomenon as one of the strongest indications that events of profound significance occurred within The Null.
 
 Until direct evidence is recovered, however, the true nature of the period—and the events responsible for the changes that followed—remains unknown.
+
+#event

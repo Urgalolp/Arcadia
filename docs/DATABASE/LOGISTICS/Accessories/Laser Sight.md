@@ -1,4 +1,6 @@
 This gadget is a small laser placed on a weapon to assist in accuracy. While you have the laser sight on, you can use a bonus action to mark a target within 30 feet of you. You have a +1 bonus on attack rolls with the weapon against the target until you use the weapon to attack a different target or you can no longer the target. You can use a bonus action to turn the laser on or off.
-Infrared. This laser sight uses an infrared diode to produce a dot invisible to the eye but detectable with infrared devices. You only gain the benefit of this sight if you are wearing infrared goggles.
+
+
+**Infrared.** This laser sight uses an infrared diode to produce a dot invisible to the eye but detectable with infrared devices. You only gain the benefit of this sight if you are wearing infrared goggles.
 
 * **Restrictions.** Ranged weapons only.

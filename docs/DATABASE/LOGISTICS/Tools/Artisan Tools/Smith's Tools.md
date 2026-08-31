@@ -13,3 +13,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Sharpen a dull blade (10)
 * Repair a suit of armor (15)
 * Sunder a nonmagical metal object (15)
+
+#artisan_tool

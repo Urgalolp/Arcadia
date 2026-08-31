@@ -10,3 +10,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Plot a course (10)
 * Discover your position on a nautical chart (15)
+
+#artisan_tool

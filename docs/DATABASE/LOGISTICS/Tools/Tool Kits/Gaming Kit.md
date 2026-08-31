@@ -12,3 +12,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Catch a player cheating (15)
 * Gain insight into an opponent's personality (15)
+
+#tool_kits

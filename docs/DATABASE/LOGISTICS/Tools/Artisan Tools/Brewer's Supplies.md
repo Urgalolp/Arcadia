@@ -15,3 +15,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Detect poison or impurities in a drink	(10)
 * Identify alcohol (15)
 * Ignore effects of alcohol (20)
+
+#artisan_tool

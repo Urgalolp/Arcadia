@@ -1,4 +1,4 @@
 This garment, consisting of a torso apron of light protective material held up by a loop around the neck, can be stored in an innocuous fanny pack. Wear it around your waist, and you’ll attract little attention. Then, when the bullets begin to fly, simply unzip the pouch and pull the apron up and over your neck. Deploying the apron is an environmental interaction. This garment provides no AC bonus when undeployed. While wearing this armor, your AC is 12 + your dexterity modifier. It has a weight of 2 lbs and costs 275 credits.
 * **Special.** While undeployed, characters automatically fail Perception checks to notice this garment (though at the GM's discretion they may notice the pouch, and intuit what it contains). While deployed, the armor is not considered concealable.
 
-#light_armor 
+#light_armor  #armor 

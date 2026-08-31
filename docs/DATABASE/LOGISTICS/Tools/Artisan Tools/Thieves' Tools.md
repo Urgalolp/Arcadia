@@ -12,3 +12,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Pick a lock (Varies)
 * Disable a trap (Varies)
+
+#artisan_tool

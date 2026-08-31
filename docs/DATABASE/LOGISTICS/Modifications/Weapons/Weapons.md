@@ -19,5 +19,6 @@
 |   +3                 |   $500   |    18     |                  |
 | Integrated Equipment | Variable |    16     | Mechanical Tools |
 | Integrated Shield    |   $275   |    12     | Mechanical Tools |
+| Match Grade Barrel   |   $500   |    16     | Mechanical Tools |
 | Reduced Caliber      |   $275   |    16     | Mechanical Tools |
 | Weighted             |   $55    |    12     | Mechanical Tools |

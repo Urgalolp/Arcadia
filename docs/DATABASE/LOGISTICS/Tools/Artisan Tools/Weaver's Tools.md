@@ -15,3 +15,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Repurpose cloth (10)
 * Mend a hole in a piece of cloth (10)
 * Tailor an outfit	(15)
+
+#artisan_tool

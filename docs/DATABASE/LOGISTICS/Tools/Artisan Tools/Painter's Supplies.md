@@ -12,3 +12,5 @@ Some activities can be done with more ease when using this tool, and some can on
 
 * Paint an accurate portrait (10)
 * Create a painting with a hidden message (20)
+
+#artisan_tool

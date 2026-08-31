@@ -15,3 +15,5 @@ Some activities can be done with more ease when using this tool, and some can on
 * Identify a substance (15)
 * Start a fire (15)
 * Neutralize acid (20)
+
+#artisan_tool
