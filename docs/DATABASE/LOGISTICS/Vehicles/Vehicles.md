@@ -155,3 +155,6 @@ For example, an economy coupe moved 300 feet on its last turn, putting it in the
 >Often, it's not worth tracking fuel use in a D&D game, as it rarely serves to further the plot or fun factor. It's fair enough to assume that you refuel between adventures, and that fuel lasts as long as needed during adventures.
 >
 >If fuel use is important in your game, you can track a rough fuel value. For modern cars, a full tank is a fuel value of 50. For every hour the car is in use, reduce the fuel value by 1. Refueling a car takes approximately a minute.
+
+
+#system

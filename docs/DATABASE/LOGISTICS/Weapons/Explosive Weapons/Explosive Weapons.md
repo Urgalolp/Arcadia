@@ -13,3 +13,4 @@
 
 A range of weapons are able to make use of explosives as their ammunition. Weapons with the Explosive property can be loaded with explosive ammunition. A handheld launcher or grenade launcher is loaded with grenades, while a rocket launcher is loaded with rockets. On a successful hit, the effects of the explosive are activated at the target's location. Inert ammunition for these weapons can be purchased, but they are usually only used for training or testing purposes.
 
+#system

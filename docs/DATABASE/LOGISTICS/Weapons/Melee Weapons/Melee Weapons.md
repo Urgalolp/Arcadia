@@ -24,3 +24,5 @@
 | Sword Cane                                     | $70  | 1d8 slashing                        | 3 lb.  | Finesse, special, covert             |
 
 Weapons intended for close-quarters combat, ranging from simple improvised and concealable weapons to specialized and heavy melee arms. These files contain records on their damage, handling, properties, and other characteristics relevant to their use.
+
+#system

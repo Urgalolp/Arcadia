@@ -25,3 +25,5 @@ When throwing a grenade, treat it as a simple ranged weapon (range 20/60). Grena
 Rockets are explosives used as ammunition for a rocket launcher.
 ### Planted Explosives
 Planted explosives function similarly to grenades, but they are not used as weapons. Rather, they are placed at a location and detonate when they are activated. Planted explosives can be activated in a variety of ways, determined by the type of detonator used. Planting an explosive (including linking a detonator) is an action, and you can plant it within 5 feet of your current position.
+
+#system

@@ -9,3 +9,5 @@ You can decide to spend additional care and time applying a module. If you spend
 Removing an applied modification is done in the same manner to applying a modification, but the DC for the check is reduced by 5. On a success, the modification is removed successfully. On a failure, the modification is not successfully removed from the item. On a critical failure, the modification is damaged beyond repair.
 
 Modifications usually have restrictions placed on them that limit the types of items the modification can be applied to. Weapons and armor can only have one the same modification applied at any one time, unless otherwise specified.
+
+#system

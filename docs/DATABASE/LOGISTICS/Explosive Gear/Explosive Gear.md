@@ -1,1 +1,3 @@
 Explosive gear is equipment designed to cause or control explosions. It includes both explosives and the detonators used to activate them, ranging from simple firecrackers and smoke charges to powerful demolition compounds and remote triggering systems.
+
+#system

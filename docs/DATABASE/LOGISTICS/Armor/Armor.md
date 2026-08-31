@@ -25,3 +25,5 @@ Body armor comes in a variety of shapes and sizes, providing varying degrees of 
 Several forms of modern armor are designed such that they can be concealed if necessary. Unlike small objects, there is very little a character can do in the moment to hide armor they are wearing. As such, the DC to notice worn armor is static and unaffected by the ability scores of whoever is wearing the armor.
 
 Noticing concealed armor is done with a Wisdom (Perception) check. The DC of this check is dependent on the type of armor, and is shown in the "Perception DC" column of the armor table. If an armor type does not have a listed DC, it is always considered noticed by anyone seeing the character wearing it.
+
+#system
