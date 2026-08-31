@@ -1,4 +1,5 @@
 **Estimated Period: 1 B.C.–1 A.C.**
+**Type:** Historical Anomaly
 
 The Null is the name given to a poorly understood period believed to have occurred between 1 B.C. and 1 A.C. Historical records immediately preceding and following this era remain sufficiently intact for scholars to establish that a significant discontinuity exists between them. Beyond this point, however, no direct historical records concerning the period itself have survived.
 

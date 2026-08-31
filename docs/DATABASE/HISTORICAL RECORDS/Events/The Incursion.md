@@ -1,4 +1,5 @@
-**621–724**
+**Date:** 621–724
+**Type:** World War
 
 The Incursion was a prolonged military advance undertaken by the three Grand Liches Azrakul, Zorakheth, and Ozymor across the region now known as Europe. Beginning in 621, the campaign covered a vast expanse of territory and was accompanied by an army composed primarily of undead creatures and contracted devils. Under the command and influence of the three liches, the army devastated settlements and territories across the continent, resulting in the deaths of countless innocents. The remains of those slain were subsequently raised and incorporated into the advancing forces, allowing the army to continually replenish its numbers.
 
