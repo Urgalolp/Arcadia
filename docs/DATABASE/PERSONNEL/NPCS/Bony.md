@@ -7,7 +7,7 @@
 
 Demolitionist, pugilist, sadist, murderer, little shit. That's **Bony**.
 
-Bony is a 5'7", 135 lbs recurring member of the Unfair Affairs. Though she is not considered part of the group's core personnel, she has operated alongside them intermittently for a considerable period of time and has participated in numerous missions. She is neither exceptionally strong nor particularly durable, but compensates through speed, cunning, and an almost complete disregard for conventional rules of engagement. Bony does not fight fairly, nor does she particularly care whether she is expected to.
+Bony is a 5'7", 135 lbs recurring member of the [[Unfair Affairs]]. Though she is not considered part of the group's core personnel, she has operated alongside them intermittently for a considerable period of time and has participated in numerous missions. She is neither exceptionally strong nor particularly durable, but compensates through speed, cunning, and an almost complete disregard for conventional rules of engagement. Bony does not fight fairly, nor does she particularly care whether she is expected to.
 
 Bony is not a military operative. Her primary occupation is within the criminal underworld, where she works for what she refers to simply as **the Mafia**. Italian, Chinese, British, American, or otherwise; the distinction is largely irrelevant to her. She works for whoever is willing to pay the most.
 

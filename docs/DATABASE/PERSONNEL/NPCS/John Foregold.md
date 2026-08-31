@@ -3,7 +3,7 @@
 **Race:** Presumably Roachkin
 **Age:** 18
 **Occupation:** Intelligence and Information Specialist
-**Affiliations:** Austrian Military; Unfair Affairs;
+**Affiliations:** Austrian Military; [[Unfair Affairs]];
 
 **John Foregold** is a 6'7", 245 lbs Australian citizen serving as an Austrian officer, and an enthusiastic admirer of practically anything associated with classic British culture. He is a tall, roach-like individual whose competence is rivaled only by his tendency to be easily pushed around and his seemingly inexhaustible fondness for sweets of all kinds.
 

@@ -3,7 +3,7 @@
 **Race:** Presumably Demi-human  
 **Age:** Unknown  
 **Occupation:** Military Officer / Private Military Commander  
-**Affiliations:** Unfair Affairs; Russian Military
+**Affiliations:** [[Unfair Affairs]]; Russian Military
 
 Standing at 5'6" and weighing approximately 130 lbs, Althir presents himself as a seemingly human male of Russian descent. His skin is pale enough to be difficult to distinguish from snow, complemented by beige hair that extends beyond his shoulders. His gray eyes are set against dark sclera, giving his otherwise delicate appearance an unsettling quality. At a glance, there is little about his physical appearance that would suggest anything beyond fragility.
 
