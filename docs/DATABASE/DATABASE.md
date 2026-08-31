@@ -13,5 +13,5 @@ SESSION: <strong>AUTHENTICATED</strong>
 
 -----------------------------------------------
 
-WELCOME BACK, F█r█c█u█r█d█D█t█S█r█n█g !
+WELCOME BACK, F█r████u████t██r███ !
 </div>

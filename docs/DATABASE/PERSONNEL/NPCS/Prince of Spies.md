@@ -1,6 +1,7 @@
-**THE** Prince of Spies, though such an individual is only known by its titles, the other of which being the Prince of Lies. A 4’3” demi-human bearing both masculine and feminine features, with an outward appearance that can only be described as cute, and a demeanor that is simultaneously unsettling and care-free. Those that have met the Prince of Spies are far and few in-between, and those that have managed to survive meeting it are even fewer.
+**THE** Prince of Spies. An individual known only by its titles, the other being the Prince of Lies. Standing at 4'3", the Prince is a demi-human bearing both masculine and feminine features, with an outward appearance that can only be described as cute, contrasted by a demeanor that is simultaneously unsettling and carefree. Those who have encountered the Prince of Spies are few and far between, and those who have survived such encounters are fewer still.
 
-No organization is able to pinpoint the location of the Prince of Spies for longer than moments, and while the vast majority of governments has a great interest in capturing this individual, none has been able to succeed thus far. It is wanted for a multitude of alleged crimes against humanity.
+No known organization has been able to pinpoint the Prince's location for more than a matter of moments. Though the vast majority of governments maintain a significant interest in capturing the individual, none have succeeded thus far. The Prince is wanted for a multitude of alleged crimes against humanity, though the full extent of these crimes remains unclear, as much of the information surrounding the individual is either unreliable, deliberately falsified, or simply impossible to verify.
+
 ![[Prince of Spies.png]]
 
 #npc 

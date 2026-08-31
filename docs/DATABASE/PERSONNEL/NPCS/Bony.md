@@ -1,8 +1,24 @@
-Demolitionist, pugilist, sadist, murderer, little shit. That's Bony. She is part of the Major's squadron, and while she isn't part of the main group, she's been on and off for quite a while, and joined plenty of missions. She is not inherently strong, nor is she inherently durable, but she is fast, she is cunning, and she does not play fair nor does she care about rules or laws.
+**Nationality:** Presumably Irish
+**Callsign:** Ca-pony
+**Race:** Unknown
+**Age:** 32
+**Occupation:** Demolitionist, Pugilist, Mercenary  
+**Affiliations:** Various Mafia Organizations
 
-She is not military, rather she is part of the Mafia. Not 'a' Mafia, 'the' Mafia. Italian, Chinese, British, American... whichever pays more at the time. When none of them pays enough, or when the Major's pay is greater, she switches sides to whoever's paying more. The only reason they haven't put a bullet in between her eyes yet is because her many connections value her skills.
+Demolitionist, pugilist, sadist, murderer, little shit. That's **Bony**.
 
-Despite this, she isn't a cheat, at least not to those she works with. She doesn’t mind torturing others, or killing them, or lying, misleading, and misguiding them… however, she would never backstab someone she has stated to be working with, even if doing so would bring her pleasure. This goes so far that Bony willingly announces, at her own risk and expense, whenever she’s changing sides, making it ‘fair’ in her mind.
+Bony is a 5'7", 135 lbs recurring member of the Unfair Affairs. Though she is not considered part of the group's core personnel, she has operated alongside them intermittently for a considerable period of time and has participated in numerous missions. She is neither exceptionally strong nor particularly durable, but compensates through speed, cunning, and an almost complete disregard for conventional rules of engagement. Bony does not fight fairly, nor does she particularly care whether she is expected to.
+
+Bony is not a military operative. Her primary occupation is within the criminal underworld, where she works for what she refers to simply as **the Mafia**. Italian, Chinese, British, American, or otherwise; the distinction is largely irrelevant to her. She works for whoever is willing to pay the most.
+
+The Unfair Affairs is no exception, which is why she is not a member of the organization, but rather an independent hire. When the Major offers greater compensation than her current employer, Bony changes allegiance. When another organization offers more, she leaves them in turn. Her continued survival despite this behavior is attributed almost entirely to the value of her skills and the extensive network of connections she has accumulated throughout the underworld. Numerous organizations have reason to want her dead, but equally numerous organizations have reason to keep her alive. 
+
+Despite her considerable willingness to engage in deception and violence, Bony adheres to one peculiar principle of loyalty. She does not consider herself a cheat toward those with whom she is actively working. She has no objection to torturing, killing, lying to, misleading, or otherwise manipulating those outside her current association, but will not knowingly betray someone she has explicitly agreed to work alongside.
+
+This principle is maintained even when betrayal would be personally advantageous or entertaining. Most notably, Bony will openly announce whenever she intends to change sides, despite the considerable risk this creates for herself. She considers such disclosure sufficient to make the transaction _fair_: once she has declared that she is no longer working for someone, anything that follows is no longer, in her mind, a betrayal.
+
+Whether this distinction is a genuine moral principle or merely an elaborate justification for her own behavior remains unclear. What is clear is that Bony takes the distinction seriously.
+
 ![[Bony.png]]
 
 #npc 
