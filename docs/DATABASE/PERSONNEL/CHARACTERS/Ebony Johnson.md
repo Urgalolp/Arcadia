@@ -1,1 +1,3 @@
 ![[Ebony Johnson.png]]
+
+#character

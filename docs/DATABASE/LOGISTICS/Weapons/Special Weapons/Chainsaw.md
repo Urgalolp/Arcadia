@@ -1,1 +1,3 @@
 Military and police units use powered saws to cut through fences and open doors rapidly. They are sometimes pressed into service as weapons, often by people who watch too many movies. A chainsaw must be running to be used as a weapon, otherwise it simply counts as an improvised weapon. Starting a chainsaw is an action. If you roll a natural 1 on an attack roll with a chainsaw, it stalls.
+
+#melee_weapon  #special_weapon

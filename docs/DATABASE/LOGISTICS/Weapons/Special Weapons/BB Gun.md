@@ -1,1 +1,3 @@
 These toys come in a variety of styles, and a particular BB Gun may have any one of the following properties: A-Fire, Spread, Light, and Two-Handed. Their ammunition capacity also varies, and may be as high as 50.
+
+#ranged_weapon #special_weapon
