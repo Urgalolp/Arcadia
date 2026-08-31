@@ -15,6 +15,14 @@ title: Arcadia Terminal
 
 <script>
 (() => {
+
+    const sessionKey = "arcadiaIndexAuthenticated"
+
+  if (localStorage.getItem(sessionKey) === "true") {
+    window.location.href = "https://urgalolp.github.io/Arcadia/database"
+    return
+  }
+
   const output = document.getElementById("terminal-output")
   const terminalInput = document.getElementById("terminal-input")
 
@@ -329,6 +337,11 @@ title: Arcadia Terminal
       window.removeEventListener(
         "keydown",
         handleKeyPress
+      )
+
+      localStorage.setItem(
+        sessionKey,
+        "true"
       )
 
       window.location.href = "./DATABASE/"
