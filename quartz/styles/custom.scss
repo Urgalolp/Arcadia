@@ -780,30 +780,26 @@ body:has(.terminal-welcome) article {
    DATABASE — TERMINAL WELCOME
    ========================================================= */
 
-#database-terminal {
+.database-welcome {
   width: 100%;
-  font-family: var(--arcadia-font);
-  color: var(--arcadia-text);
-}
 
-#database-welcome {
+  margin: 0 0 2rem 0;
   padding: 1rem 0 2rem;
 
   font-family: var(--arcadia-font);
   font-size: 1rem;
   line-height: 1.5;
 
+  color: var(--arcadia-text);
+
+  white-space: pre-wrap;
+
   animation: database-welcome-in 0.8s ease-out;
 }
 
-#database-welcome strong {
+.database-welcome strong {
   color: var(--arcadia-bright);
   font-weight: 600;
-}
-
-.database-separator {
-  color: var(--arcadia-text);
-  margin: 0.75rem 0;
 }
 
 @keyframes database-welcome-in {
@@ -816,23 +812,4 @@ body:has(.terminal-welcome) article {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-
-/* =========================================================
-   DATABASE — FOLDER LIST REVEAL
-   ========================================================= */
-
-.page-listing.database-list-hidden {
-  opacity: 0;
-  transform: translateY(8px);
-}
-
-.page-listing.database-list-visible {
-  opacity: 1;
-  transform: translateY(0);
-
-  transition:
-    opacity 0.5s ease,
-    transform 0.5s ease;
 }
