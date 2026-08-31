@@ -2,17 +2,39 @@
 title: DATABASE
 ---
 
-<div class="terminal-welcome">
+<div id="database-terminal">
 
-<span class="terminal-line">ARCADIA INFORMATION INDEX</span>
-<span class="terminal-line">-----------------------------------------------</span>
+  <div id="database-welcome">
 
-<span class="terminal-line">SYSTEM STATUS: <strong>ONLINE</strong></span>
-<span class="terminal-line">ACCESS LEVEL: ███████</span>
-<span class="terminal-line">SESSION: <strong>AUTHENTICATED</strong></span>
+    <div>ARCADIA INFORMATION INDEX</div>
 
-<span class="terminal-line">-----------------------------------------------</span>
+    <div class="database-separator">-----------------------------------------------</div>
 
-<span class="terminal-line">WELCOME BACK, F█r█c█u█r█d█D█t█S█r█n█g !</span>
+    <div>SYSTEM STATUS: <strong>ONLINE</strong></div>
+    <div>ACCESS LEVEL: ███████</div>
+    <div>SESSION: <strong>AUTHENTICATED</strong></div>
+
+    <div class="database-separator">-----------------------------------------------</div>
+
+    <div>WELCOME BACK, F█r█c█u█r█d█D█t█S█r█n█g !</div>
+
+  </div>
 
 </div>
+
+<script>
+(() => {
+  const pageListing = document.querySelector(".page-listing")
+
+  if (!pageListing) return
+
+  // Hide the folder contents initially.
+  pageListing.classList.add("database-list-hidden")
+
+  // Reveal them after the welcome screen has appeared.
+  setTimeout(() => {
+    pageListing.classList.remove("database-list-hidden")
+    pageListing.classList.add("database-list-visible")
+  }, 1800)
+})()
+</script>
