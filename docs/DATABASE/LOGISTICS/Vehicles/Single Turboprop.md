@@ -21,17 +21,17 @@ poisoned, prone, stunned, unconscious
 >
 > ### Hull
 > **Armor Class** 19
-> </br>**Hit Points** 200 (damage threshold 10)
+> **Hit Points** 200 (damage threshold 10)
 >
 > ### Control: Steering Wheel
 > **Armor Class** 12
-> </br>**Hit Points** 50
+> **Hit Points** 50
 >
 > Move up to the speed of one of the turboprop's movement components, with up to two 45-degree turns. If the steering wheel is destroyed, the turboprop can't turn. 
 >
 > ### Movement: Propellers
 > **Armor Class** 12
-> </br>**Hit Points** 50
-> </br>**Speed (land)** 1700 ft. (requires at least 1 crew)
+> **Hit Points** 50
+> **Speed (land)** 1700 ft. (requires at least 1 crew)
 
 #vehicle

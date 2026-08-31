@@ -18,17 +18,17 @@ poisoned, prone, stunned, unconscious
 >
 > ### Hull
 > **Armor Class** 17
-> </br>**Hit Points** 80 (damage threshold 10)
+> **Hit Points** 80 (damage threshold 10)
 >
 > ### Control: Handlebars
 > **Armor Class** 17
-> </br>**Hit Points** 50
+> **Hit Points** 50
 >
 > Move up to the speed of one of the motorcycle's movement components, with up to four 45-degree turns. If the handlebars are destroyed, the motorcycle can't turn. 
 >
 > ### Movement: Engine
 > **Armor Class** 14
-> </br>**Hit Points** 50
-> </br>**Speed (land)** 400 ft. (requires at least 1 crew)
+> **Hit Points** 50
+> **Speed (land)** 400 ft. (requires at least 1 crew)
 
 #vehicle

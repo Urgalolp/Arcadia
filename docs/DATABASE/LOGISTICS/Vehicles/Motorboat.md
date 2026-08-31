@@ -18,17 +18,17 @@ poisoned, prone, stunned, unconscious
 >
 > ### Hull
 > **Armor Class** 17
-> </br>**Hit Points** 100 (damage threshold 10)
+> **Hit Points** 100 (damage threshold 10)
 >
 > ### Control: Helm
 > **Armor Class** 16
-> </br>**Hit Points** 30
+> **Hit Points** 30
 >
 > Move up to the speed of one of the motroboat's movement components, with up to three 45-degree turns. If the steering wheel is destroyed, the motorboat can't turn. 
 >
 > ### Movement: Motor
 > **Armor Class** 12
-> </br>**Hit Points** 50
-> </br>**Speed (land)** 500 ft. (requires at least 1 crew)
+> **Hit Points** 50
+> **Speed (land)** 500 ft. (requires at least 1 crew)
 
 #vehicle

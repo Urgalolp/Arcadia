@@ -20,17 +20,17 @@ poisoned, prone, stunned, unconscious
 >
 > ### Hull
 > **Armor Class** 19
-> </br>**Hit Points** 80 (damage threshold 10)
+> **Hit Points** 80 (damage threshold 10)
 >
 > ### Control: Steering Wheel
 > **Armor Class** 17
-> </br>**Hit Points** 50
+> **Hit Points** 50
 >
 > Move up to the speed of one of the coupe's movement components, with up to three 45-degree turns. If the steering wheel is destroyed, the coupe can't turn. 
 >
 > ### Movement: Engine
 > **Armor Class** 16
-> </br>**Hit Points** 50
-> </br>**Speed (land)** 1500 ft. (requires at least 1 crew)
+> **Hit Points** 50
+> **Speed (land)** 1500 ft. (requires at least 1 crew)
 
 #vehicle
